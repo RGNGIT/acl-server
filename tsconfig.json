@@ -1,0 +1,18 @@
+{
+  "compileOnSave": false,
+  "ts-node": { "files": true },
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": false,
+    "target": "es2017",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "sourceMap": false,
+    "types": ["@types/node"]
+  },
+  "exclude": ["dist", "node_modules"]
+}
