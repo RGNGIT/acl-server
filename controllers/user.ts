@@ -21,16 +21,24 @@ class UserController {
   }
   async deleteUser(req: Request, res: Response): Promise<void> {
     try {
-      const {id} = req.params;
+      const { id } = req.params;
       await UserService.deleteUserByKey(id);
       res.send("OK");
-    } catch(err) {
+    } catch (err) {
       console.log(err);
       res.json(err);
     }
   }
   async editUser(req: Request, res: Response): Promise<void> {
-
+    try {
+      const {id} = req.params;
+      const { surname, name, patron, login, password } = req.body;
+      await UserService.editOneByKey(id, { Surname: surname, Name: name, Patron: patron, Login: login, Password: EncryptService.encrypt(password) });
+      res.send("OK");
+    } catch (err) {
+      console.log(err);
+      res.json(err);
+    }
   }
   async login(req: Request, res: Response): Promise<void> {
     try {

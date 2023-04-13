@@ -1,5 +1,6 @@
 import MySQL2Commander from "../mysqlCommander";
 import EncryptService from "./encrypt";
+import { formSets } from "./misc";
 
 class UserService {
   async addUser(block: { Surname, Name, Patron, Login }, Password) {
@@ -14,11 +15,16 @@ class UserService {
     return res;
   }
   async fetchOneByKey(Key) {
-
+    const res = await (new MySQL2Commander).queryExec(`SELECT * FROM phys WHERE phys.Key = '${Key}';`);
+    return res[0];
   }
   async fetchOneByLogin(Login) {
     const res = await (new MySQL2Commander).queryExec(`SELECT * FROM phys WHERE phys.Login = '${Login}';`);
     return res[0];
+  }
+  async editOneByKey(Key, block) {
+    const res = await (new MySQL2Commander).queryExec(`UPDATE phys SET ${formSets(block)} WHERE phys.Key = ${Key};`);
+    return res;
   }
 }
 

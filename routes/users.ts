@@ -6,5 +6,6 @@ const router = Router();
 
 router.post(SERVER.CREATE_USER, UserController.regNewUser);
 router.post(SERVER.USER_LOGIN, UserController.login);
+router.patch(SERVER.EDIT_USER, UserController.editUser);
 
 export default router;
