@@ -4,4 +4,6 @@ export default {
   EDIT_USER: "/editUser/:id",
   DELETE_USER: "/deleteUser/:id",
   USER_LOGIN: "/login"
+  // Словари
+  
 }
