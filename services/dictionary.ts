@@ -2,7 +2,7 @@ import MySQL2Commander from "../mysqlCommander";
 import { formSets } from "./misc";
 
 class DictionaryService {
-  async addNewDuty(block, table) {
+  async addNew(block, table) {
     const res = await (new MySQL2Commander).queryExec(`INSERT INTO ${table} (${Object.keys(block).join(", ")}) VALUES (${Object.values(block).join(", ")});`);
     return res;
   }

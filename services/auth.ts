@@ -8,7 +8,7 @@ class AuthService {
   }
   async verifyToken(token) {
     try {
-      return await jwt.verify(token, process.env.REFRESH_SECRET);
+      return await jwt.verify(token, process.env.SECRET);
     } catch(err) {
       return err;
     }
