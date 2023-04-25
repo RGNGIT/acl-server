@@ -26,6 +26,9 @@ class UserService {
     const res = await (new MySQL2Commander).queryExec(`UPDATE phys SET ${formSets(block)} WHERE phys.Key = ${Key};`);
     return res;
   }
+  async fetchAll() {
+    return await (new MySQL2Commander).queryExec(`SELECT * FROM phys;`);
+  }
 }
 
 export default new UserService();

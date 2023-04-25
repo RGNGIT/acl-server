@@ -49,7 +49,7 @@ class UserController {
       } else {
         const hashPassword = EncryptService.encrypt(password);
         if ((new AuthService).checkUserPassword({ pass1: user.Password, pass2: hashPassword })) {
-          res.json({ token: await (new AuthService).generateToken({ Key: user.Key, Login: login }) });
+          res.json({ key: user.Key, token: await (new AuthService).generateToken({ Key: user.Key, Login: login }) });
         } else {
           res.send("Неправильный логин/пароль");
         }
@@ -64,6 +64,15 @@ class UserController {
       const { id } = req.params;
       const user = await UserService.fetchOneByKey(id);
       res.json(user);
+    } catch (err) {
+      console.log(err);
+      res.json(err);
+    }
+  }
+  async getAllUsers(req: Request, res: Response): Promise<void> {
+    try {
+      const users = await UserService.fetchAll();
+      res.json(users);
     } catch (err) {
       console.log(err);
       res.json(err);
