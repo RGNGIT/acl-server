@@ -6,6 +6,7 @@ export default {
   USER_LOGIN: "/login",
   GET_USER_INFO: "/getUserInfo/:id",
   GET_ALL_USERS: "/getAllUsers",
+  GET_ALL_USER_ROLES: "/getAllUserRoles",
   // Словари
   ADD_DICTIONARY: "/addDictionary/:table",
   GET_DICTIONARY: "/getDictionary/:table/:id",

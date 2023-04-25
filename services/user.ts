@@ -29,6 +29,12 @@ class UserService {
   async fetchAll() {
     return await (new MySQL2Commander).queryExec(`SELECT * FROM phys;`);
   }
+  async fetchUserRoles() {
+    return await (new MySQL2Commander).queryExec(`SELECT user_role.Key as RoleKey, Name as Role_Name, ShName as Role_ShName FROM user_role;`);
+  }
+  async fetchUserRoleByKey(Key) {
+    return (await (new MySQL2Commander).queryExec(`SELECT Name as Role_Name, ShName as Role_ShName FROM user_role WHERE user_role.Key = ${Key};`))[0];
+  }
 }
 
 export default new UserService();

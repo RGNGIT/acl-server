@@ -63,7 +63,8 @@ class UserController {
     try {
       const { id } = req.params;
       const user = await UserService.fetchOneByKey(id);
-      res.json(user);
+      const role = await UserService.fetchUserRoleByKey(user.Role_Key);
+      res.json({...user, ...role});
     } catch (err) {
       console.log(err);
       res.json(err);
@@ -73,6 +74,15 @@ class UserController {
     try {
       const users = await UserService.fetchAll();
       res.json(users);
+    } catch (err) {
+      console.log(err);
+      res.json(err);
+    }
+  }
+  async getAllUserRoles(req: Request, res: Response): Promise<void> {
+    try {
+      const roles = await UserService.fetchUserRoles();
+      res.json(roles);
     } catch (err) {
       console.log(err);
       res.json(err);
