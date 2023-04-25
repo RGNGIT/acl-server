@@ -59,6 +59,16 @@ class UserController {
       res.json(err);
     }
   }
+  async getUserInfo(req: Request, res: Response): Promise<void> {
+    try {
+      const { id } = req.params;
+      const user = await UserService.fetchOneByKey(id);
+      res.json(user);
+    } catch (err) {
+      console.log(err);
+      res.json(err);
+    }
+  }
 }
 
 export default new UserController();
