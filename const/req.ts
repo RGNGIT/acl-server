@@ -4,7 +4,7 @@ export default {
   EDIT_USER: "/editUser/:id",
   DELETE_USER: "/deleteUser/:id",
   USER_LOGIN: "/login",
-  GET_USER_INFO: "/getUserInfo",
+  GET_USER_INFO: "/getUserInfo/:id",
   GET_ALL_USERS: "/getAllUsers",
   // Словари
   ADD_DICTIONARY: "/addDictionary/:table",
