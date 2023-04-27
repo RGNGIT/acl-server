@@ -3,7 +3,7 @@ import MySQL2Commander from "../mysqlCommander";
 import { formSets } from "./misc";
 
 class TaskService {
-  async addNew(block: {Name, Description, OpenDate, PlannedCloseDate, Priority_Key, Node_Key}) {
+  async addNew(block: {Name, Description, OpenDate, PlannedCloseDate, Priority_Key, Node_Key, Task_Type_Key}) {
     return await (new MySQL2Commander).queryExec(`INSERT INTO task (${Object.keys(block).join(", ")}) VALUES (${Object.values(block).join(", ")});`);
   }
   async connectTaskUser(block: {Role_Key, Task_Key}) {
@@ -35,8 +35,11 @@ class TaskService {
     SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, 
     b.Key as PriorityKey, b.Name as PriorityName, b.ShName as PriorityShName, 
     c.Key as NodeKey, c.Name as NodeName, c.ShName as NodeShName 
-    FROM task as a, priority as b, node as c 
+    FROM task as a, priority as b, node as c
     WHERE a.Node_Key = ${Key} AND b.Key = a.Priority_Key AND c.Key = ${Key};`);
+  }
+  async fetchTaskUser(Key) {
+    return await (new MySQL2Commander).queryExec(`SELECT b.Key as RoleKey, c.Key as PhysKey, c.Surname, c.Name, c.Patron, d.Name as DutyName FROM claim as a, role as b, phys as c, duty as d WHERE a.Role_Key = b.Key AND c.Role_Key = b.Key AND d.Key = b.Duty_Key AND a.Task_Key = ${Key};`);
   }
 }
 

@@ -4,7 +4,7 @@ import TaskService from "../services/task";
 class TaskController {
   async addTask(req: Request, res: Response): Promise<void> {
     try {
-      const { name, description, openDate, plannedDate, priorityKey, nodeKey } =
+      const { name, description, openDate, plannedDate, priorityKey, nodeKey, typeKey } =
         req.body;
       await TaskService.addNew({
         Name: `'${name}'`,
@@ -13,6 +13,7 @@ class TaskController {
         PlannedCloseDate: `STR_TO_DATE('${plannedDate}', '%d-%m-%Y')`,
         Priority_Key: priorityKey,
         Node_Key: nodeKey,
+        Task_Type_Key: typeKey
       });
       res.send("OK");
     } catch (err) {
@@ -71,6 +72,9 @@ class TaskController {
     try {
       const {id} = req.params;
       const result = await TaskService.fetchNodeTasks(id);
+      for(const task of result) {
+        task.worker = (await TaskService.fetchTaskUser(task.TaskKey))[0];
+      }
       res.send(result);
     } catch (err) {
       console.log(err);
