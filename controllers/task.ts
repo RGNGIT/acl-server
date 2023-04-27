@@ -33,10 +33,44 @@ class TaskController {
       res.json(err);
     }
   }
+  async connectUserNode(req: Request, res: Response): Promise<void> {
+    try {
+      const { roleKey, nodeKey } = req.body;
+      await TaskService.connectNodeUser({
+        Node_Key: nodeKey,
+        Role_Key: roleKey
+      })
+      res.send("OK");
+    } catch (err) {
+      console.log(err);
+      res.json(err);
+    }
+  }
+  async getUserNodes(req: Request, res: Response): Promise<void> {
+    try {
+      const { id } = req.params;
+      const result = await TaskService.fetchUserNodes(id);
+      res.send(result);
+    } catch (err) {
+      console.log(err);
+      res.json(err);
+    }
+  }
   async getUsersTasks(req: Request, res: Response): Promise<void> {
     try {
       const {id} = req.params;
-      const result = await TaskService.fetchUsersTasksByKey(id);
+      const {nodeKey} = req.query;
+      const result = await TaskService.fetchUsersTasksByKey(id, nodeKey);
+      res.send(result);
+    } catch (err) {
+      console.log(err);
+      res.json(err);
+    }
+  }
+  async getTasks(req: Request, res: Response): Promise<void> {
+    try {
+      const {id} = req.params;
+      const result = await TaskService.fetchNodeTasks(id);
       res.send(result);
     } catch (err) {
       console.log(err);

@@ -6,7 +6,10 @@ class DictionaryController {
     try {
       const { table } = req.params;
       const { name, shName } = req.body;
-      const result = await DictionaryService.addNew({ Name: name, ShName: shName }, table);
+      const result = await DictionaryService.addNew(
+        { Name: name, ShName: shName },
+        table
+      );
       res.json({ Key: result.insertId });
     } catch (err) {
       console.log(err);
@@ -17,7 +20,11 @@ class DictionaryController {
     try {
       const { table, id } = req.params;
       const { name, shName } = req.body;
-      const result = await DictionaryService.editOneByKey(id, { Name: name, ShName: shName }, table);
+      await DictionaryService.editOneByKey(
+        id,
+        { Name: name, ShName: shName },
+        table
+      );
       res.send("OK");
     } catch (err) {
       console.log(err);
@@ -27,18 +34,8 @@ class DictionaryController {
   async delete(req: Request, res: Response): Promise<void> {
     try {
       const { table, id } = req.params;
-      const result = await DictionaryService.deleteOneByKey(id, table);
+      await DictionaryService.deleteOneByKey(id, table);
       res.send("OK");
-    } catch (err) {
-      console.log(err);
-      res.json(err);
-    }
-  }
-  async getById(req: Request, res: Response): Promise<void> {
-    try {
-      const { table, id } = req.params;
-      const result = await DictionaryService.fetchOneByKey(id, table);
-      res.json(result);
     } catch (err) {
       console.log(err);
       res.json(err);
@@ -47,7 +44,13 @@ class DictionaryController {
   async get(req: Request, res: Response): Promise<void> {
     try {
       const { table } = req.params;
-      const result = await DictionaryService.fetchAll(table);
+      const { id } = req.query;
+      let result;
+      if (!id) {
+        result = await DictionaryService.fetchAll(table);
+      } else {
+        result = await DictionaryService.fetchOneByKey(id, table);
+      }
       res.json(result);
     } catch (err) {
       console.log(err);

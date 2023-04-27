@@ -1,3 +1,4 @@
+import { isAwaitExpression } from "typescript";
 import MySQL2Commander from "../mysqlCommander";
 import { formSets } from "./misc";
 
@@ -8,18 +9,34 @@ class TaskService {
   async connectTaskUser(block: {Role_Key, Task_Key}) {
     return await (new MySQL2Commander).queryExec(`INSERT INTO claim (${Object.keys(block).join(", ")}, DateAttach) VALUES (${Object.values(block).join(", ")}, NOW());`);
   }
-  async fetchUsersTasksByKey(Key) {
+  async connectNodeUser(block: {Role_Key, Node_Key}) {
+    return await (new MySQL2Commander).queryExec(`INSERT INTO role_node (${Object.keys(block).join(", ")}) VALUES (${Object.values(block).join(", ")});`);
+  }
+  async fetchUserNodes(Key) {
+    return await (new MySQL2Commander).queryExec(`SELECT d.Key, d.Name, d.ShName FROM phys as a, role as b, role_node as c, node as d WHERE a.Role_Key = b.Key AND b.Key = c.Role_Key AND c.Node_Key = d.Key AND a.Key = ${Key};`);
+  }
+  async fetchUsersTasksByKey(Key, Node_Key) {
     return await (new MySQL2Commander).queryExec(`
     SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, 
     b.Key as ClaimKey, b.DateAttach, b.DateDetach, 
     d.Key as PriorityKey, d.Name as PriorityName, d.ShName as PriorityShName, 
     e.Key as NodeKey, e.Name as NodeName, e.ShName as NodeShName  
-    FROM task as a, claim as b, role as c, priority as d, node as e  
+    FROM task as a, claim as b, role as c, priority as d, node as e, role_node as f
     WHERE a.Key = b.Task_Key AND 
     b.Role_Key = c.Key AND 
     d.Key = a.Priority_Key AND 
     e.Key = a.Node_Key AND 
+    f.Role_Key = c.Key AND 
+    f.Node_Key = ${Node_Key} AND 
     c.Phys_Key = ${Key};`);
+  }
+  async fetchNodeTasks(Key) {
+    return await (new MySQL2Commander).queryExec(`
+    SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, 
+    b.Key as PriorityKey, b.Name as PriorityName, b.ShName as PriorityShName, 
+    c.Key as NodeKey, c.Name as NodeName, c.ShName as NodeShName 
+    FROM task as a, priority as b, node as c 
+    WHERE a.Node_Key = ${Key} AND b.Key = a.Priority_Key AND c.Key = ${Key};`);
   }
 }
 

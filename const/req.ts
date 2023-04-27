@@ -10,11 +10,14 @@ export default {
   ADD_NEW_ROLE: "/addRole",
   // Словари
   ADD_DICTIONARY: "/addDictionary/:table",
-  GET_DICTIONARY: "/getDictionary/:table/:id",
+  GET_DICTIONARY: "/getDictionary/:table",
   EDIT_DICTIONARY: "/editDictionary/:table/:id",
   DELETE_DICTIONARY: "/deleteDictionary/:table/:id",
   // Таски
   ADD_TASK: "/addTask",
   CONNECT_ROLE_TASK: "/connectRoleTask",
-  GET_USER_TASKS: "/getUserTasks/:id"
+  GET_USER_TASKS: "/getUserTasks/:id",
+  GET_NODE_TASKS: "/getNodeTasks/:id",
+  CONNECT_USER_NODE: "/connectUserNode",
+  GET_USER_NODES: "/getUserNodes/:id"
 }
