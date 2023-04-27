@@ -17,7 +17,7 @@ class TaskService {
   }
   async fetchUsersTasksByKey(Key, Node_Key) {
     return await (new MySQL2Commander).queryExec(`
-    SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, 
+    SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, a.Task_Type_Key as TaskType, 
     b.Key as ClaimKey, b.DateAttach, b.DateDetach, 
     d.Key as PriorityKey, d.Name as PriorityName, d.ShName as PriorityShName, 
     e.Key as NodeKey, e.Name as NodeName, e.ShName as NodeShName  
@@ -32,7 +32,7 @@ class TaskService {
   }
   async fetchNodeTasks(Key) {
     return await (new MySQL2Commander).queryExec(`
-    SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, 
+    SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, a.Task_Type_Key as TaskType, 
     b.Key as PriorityKey, b.Name as PriorityName, b.ShName as PriorityShName, 
     c.Key as NodeKey, c.Name as NodeName, c.ShName as NodeShName 
     FROM task as a, priority as b, node as c
@@ -40,6 +40,9 @@ class TaskService {
   }
   async fetchTaskUser(Key) {
     return await (new MySQL2Commander).queryExec(`SELECT b.Key as RoleKey, c.Key as PhysKey, c.Surname, c.Name, c.Patron, d.Name as DutyName FROM claim as a, role as b, phys as c, duty as d WHERE a.Role_Key = b.Key AND c.Role_Key = b.Key AND d.Key = b.Duty_Key AND a.Task_Key = ${Key};`);
+  }
+  async fetchTaskType(Key) {
+    return await (new MySQL2Commander).queryExec(`SELECT * FROM task_type WHERE task_type.Key = ${Key};`);
   }
 }
 

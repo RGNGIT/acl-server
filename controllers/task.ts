@@ -62,6 +62,11 @@ class TaskController {
       const {id} = req.params;
       const {nodeKey} = req.query;
       const result = await TaskService.fetchUsersTasksByKey(id, nodeKey);
+      for(const task of result) {
+        task.worker = (await TaskService.fetchTaskUser(task.TaskKey))[0];
+        task.type = (await TaskService.fetchTaskType(task.TaskType))[0];
+        delete task.TaskType;
+      }
       res.send(result);
     } catch (err) {
       console.log(err);
@@ -74,6 +79,8 @@ class TaskController {
       const result = await TaskService.fetchNodeTasks(id);
       for(const task of result) {
         task.worker = (await TaskService.fetchTaskUser(task.TaskKey))[0];
+        task.type = (await TaskService.fetchTaskType(task.TaskType))[0];
+        delete task.TaskType;
       }
       res.send(result);
     } catch (err) {
