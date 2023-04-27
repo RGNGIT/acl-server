@@ -3,7 +3,7 @@ import { formSets } from "./misc";
 
 class RoleService {
   async addNew(block) {
-    const res = await (new MySQL2Commander).queryExec(`INSERT INTO role (${Object.keys(block).join(", ")}) VALUES (${Object.values(block).join(", ")});`);
+    const res = await (new MySQL2Commander).queryExec(`INSERT INTO role (${Object.keys(block).join(", ")}, DateRecrut) VALUES (${Object.values(block).join(", ")}, NOW());`);
     return res;
   }
   async patch(Key, block) {

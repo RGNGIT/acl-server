@@ -7,9 +7,14 @@ export default {
   GET_USER_INFO: "/getUserInfo/:id",
   GET_ALL_USERS: "/getAllUsers",
   GET_ALL_USER_ROLES: "/getAllUserRoles",
+  ADD_NEW_ROLE: "/addRole",
   // Словари
   ADD_DICTIONARY: "/addDictionary/:table",
   GET_DICTIONARY: "/getDictionary/:table/:id",
   EDIT_DICTIONARY: "/editDictionary/:table/:id",
-  DELETE_DICTIONARY: "/deleteDictionary/:table/:id"
+  DELETE_DICTIONARY: "/deleteDictionary/:table/:id",
+  // Таски
+  ADD_TASK: "/addTask",
+  CONNECT_ROLE_TASK: "/connectRoleTask",
+  GET_USER_TASKS: "/getUserTasks/:id"
 }
