@@ -7,7 +7,7 @@ class DictionaryController {
       const { table } = req.params;
       const { name, shName } = req.body;
       const result = await DictionaryService.addNew(
-        { Name: name, ShName: shName },
+        { Name: `'${name}'`, ShName: `'${shName}'` },
         table
       );
       res.json({ Key: result.insertId });
