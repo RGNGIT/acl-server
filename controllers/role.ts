@@ -17,8 +17,8 @@ class RoleController {
       const { id } = req.params;
       const { dateRecrut, dateFired, dutyKey, physKey, expKey } = req.body;
       await RoleService.patch(id, {
-        DateRecrut: `'${dateRecrut}'`,
-        DateFireed: `'${dateFired}'`,
+        DateRecrut: dateRecrut ? `STR_TO_DATE('${dateRecrut}', '%d-%m-%Y')` : null,
+        DateFireed: dateFired ? `STR_TO_DATE('${dateFired}', '%d-%m-%Y')` : null,
         Duty_Key: `${dutyKey}`,
         Phys_Key: `${physKey}`,
         Exp_Key: `${expKey}`

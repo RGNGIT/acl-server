@@ -42,8 +42,8 @@ class TaskController {
                 typeKey
             } = req.body;
             await TaskService.editTaskBykey(id, {
-                Name: `'${name}'`,
-                Description: `'${description}'`,
+                Name: `${name}`,
+                Description: `${description}`,
                 OpenDate: openDate ? `STR_TO_DATE('${openDate}', '%d-%m-%Y')` : null,
                 PlannedCloseDate: plannedDate ? `STR_TO_DATE('${plannedDate}', '%d-%m-%Y')` : null,
                 FactCloseDate: factDate ? `STR_TO_DATE('${factDate}', '%d-%m-%Y')` : null,
