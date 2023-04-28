@@ -16,8 +16,8 @@ class TaskController {
             await TaskService.addNew({
                 Name: `'${name}'`,
                 Description: `'${description}'`,
-                OpenDate: `STR_TO_DATE('${openDate}', '%d-%m-%Y')`,
-                PlannedCloseDate: `STR_TO_DATE('${plannedDate}', '%d-%m-%Y')`,
+                OpenDate: `STR_TO_DATE('${openDate}', '%Y-%m-%d')`,
+                PlannedCloseDate: `STR_TO_DATE('${plannedDate}', '%Y-%m-%d')`,
                 Priority_Key: priorityKey,
                 Node_Key: nodeKey,
                 Task_Type_Key: typeKey
@@ -44,9 +44,9 @@ class TaskController {
             await TaskService.editTaskBykey(id, {
                 Name: `${name}`,
                 Description: `${description}`,
-                OpenDate: openDate ? `STR_TO_DATE('${openDate}', '%d-%m-%Y')` : null,
-                PlannedCloseDate: plannedDate ? `STR_TO_DATE('${plannedDate}', '%d-%m-%Y')` : null,
-                FactCloseDate: factDate ? `STR_TO_DATE('${factDate}', '%d-%m-%Y')` : null,
+                OpenDate: openDate ? `STR_TO_DATE('${openDate}', '%Y-%m-%d')` : null,
+                PlannedCloseDate: plannedDate ? `STR_TO_DATE('${plannedDate}', '%Y-%m-%d')` : null,
+                FactCloseDate: factDate ? `STR_TO_DATE('${factDate}', '%Y-%m-%d')` : null,
                 Priority_Key: priorityKey,
                 Node_Key: nodeKey,
                 Task_Type_Key: typeKey
