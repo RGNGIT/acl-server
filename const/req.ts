@@ -19,5 +19,6 @@ export default {
   GET_USER_TASKS: "/getUserTasks/:id",
   GET_NODE_TASKS: "/getNodeTasks/:id",
   CONNECT_USER_NODE: "/connectUserNode",
-  GET_USER_NODES: "/getUserNodes/:id"
+  GET_USER_NODES: "/getUserNodes/:id",
+  EDIT_TASK: "/editTask/:id",
 }

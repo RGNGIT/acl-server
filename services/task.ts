@@ -44,6 +44,9 @@ class TaskService {
   async fetchTaskType(Key) {
     return await (new MySQL2Commander).queryExec(`SELECT * FROM task_type WHERE task_type.Key = ${Key};`);
   }
+  async editTaskBykey(Key, block) {
+    return await (new MySQL2Commander).queryExec(`UPDATE task SET ${formSets(block)} WHERE task.Key = ${Key};`);
+  }
 }
 
 export default new TaskService;
