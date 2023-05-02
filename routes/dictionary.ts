@@ -1,6 +1,6 @@
 import { Router } from "express";
 import DictionaryController from "../controllers/dictionary";
-import SERVER from "../const/req";
+import SERVER from "../const/request";
 
 const router = Router();
 

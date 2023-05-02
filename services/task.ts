@@ -44,8 +44,19 @@ class TaskService {
   async fetchTaskType(Key) {
     return await (new MySQL2Commander).queryExec(`SELECT * FROM task_type WHERE task_type.Key = ${Key};`);
   }
-  async editTaskBykey(Key, block) {
+  async editTaskByKey(Key, block) {
     return await (new MySQL2Commander).queryExec(`UPDATE task SET ${formSets(block)} WHERE task.Key = ${Key};`);
+  }
+  async fetchNodesUsersByKey(Key) {
+    return await (new MySQL2Commander).queryExec(`
+    SELECT a.Key as PhysKey, a.Name, a.Surname, a.Patron, a.Login, 
+    b.Key as RoleKey, d.Key as DutyKey, d.Name as DutyName 
+    FROM phys as a, role as b, role_node as c, duty as d 
+    WHERE a.Key = b.Phys_Key AND 
+    b.Duty_Key = d.Key AND 
+    b.Key = c.Role_Key AND 
+    c.Node_Key = ${Key};`
+    );
   }
 }
 

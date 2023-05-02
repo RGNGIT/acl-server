@@ -21,4 +21,5 @@ export default {
   CONNECT_USER_NODE: "/connectUserNode",
   GET_USER_NODES: "/getUserNodes/:id",
   EDIT_TASK: "/editTask/:id",
+  GET_NODE_USERS: "/getNodeUsers/:id"
 }

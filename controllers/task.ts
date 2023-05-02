@@ -41,7 +41,7 @@ class TaskController {
                 nodeKey,
                 typeKey
             } = req.body;
-            await TaskService.editTaskBykey(id, {
+            await TaskService.editTaskByKey(id, {
                 Name: `${name}`,
                 Description: `${description}`,
                 OpenDate: openDate ? `STR_TO_DATE('${openDate}', '%Y-%m-%d')` : null,
@@ -112,6 +112,16 @@ class TaskController {
                 task.type = (await TaskService.fetchTaskType(task.TaskType))[0];
                 delete task.TaskType;
             }
+            res.send(result);
+        } catch (err) {
+            console.log(err);
+            res.json(err);
+        }
+    }
+    async getUsersOfNode(req : Request, res : Response): Promise < void > {
+        try {
+            const {id} = req.params;
+            const result = await TaskService.fetchNodesUsersByKey(id);
             res.send(result);
         } catch (err) {
             console.log(err);

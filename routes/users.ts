@@ -1,7 +1,7 @@
 import { Router } from "express";
 import UserController from "../controllers/user";
 import RoleController from "../controllers/role";
-import SERVER from "../const/req";
+import SERVER from "../const/request";
 
 const router = Router();
 
