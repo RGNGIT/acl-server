@@ -21,5 +21,7 @@ export default {
   CONNECT_USER_NODE: "/connectUserNode",
   GET_USER_NODES: "/getUserNodes/:id",
   EDIT_TASK: "/editTask/:id",
-  GET_NODE_USERS: "/getNodeUsers/:id"
+  GET_NODE_USERS: "/getNodeUsers/:id",
+  ADD_TIMETRACK: "/addTimetrack",
+  GET_TIMETRACK: "/getTimetrack/:id"
 }

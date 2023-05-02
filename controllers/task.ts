@@ -128,6 +128,26 @@ class TaskController {
             res.json(err);
         }
     }
+    async addTimeTrack(req : Request, res : Response): Promise < void > {
+      try {
+          const {taskKey, roleKey, time} = req.body;
+          await TaskService.addTimeTrackToTask(taskKey, roleKey, time);
+          res.send("OK");
+      } catch (err) {
+          console.log(err);
+          res.json(err);
+      }
+  }
+  async getTimeTrack(req : Request, res : Response): Promise < void > {
+    try {
+        const {id} = req.params;
+        const result = await TaskService.fetchTimetrackByRoleKey(id);
+        res.send(result);
+    } catch (err) {
+        console.log(err);
+        res.json(err);
+    }
+}
 }
 
 export default new TaskController();

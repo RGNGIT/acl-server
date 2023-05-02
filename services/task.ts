@@ -58,6 +58,12 @@ class TaskService {
     c.Node_Key = ${Key};`
     );
   }
+  async addTimeTrackToTask(TaskKey, RoleKey, Time) {
+    return await (new MySQL2Commander).queryExec(`INSERT INTO timetrack (Time, Task_Key, Role_Key) VALUES ('${Time}', ${TaskKey}, ${RoleKey});`);
+  }
+  async fetchTimetrackByRoleKey(Key) {
+    return await (new MySQL2Commander).queryExec(`SELECT * FROM timetrack WHERE timetrack.Role_Key = ${Key};`);
+  }
 }
 
 export default new TaskService;

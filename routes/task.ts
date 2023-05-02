@@ -12,5 +12,7 @@ router.post(SERVER.CONNECT_USER_NODE, TaskController.connectUserNode);
 router.get(SERVER.GET_USER_NODES, TaskController.getUserNodes);
 router.patch(SERVER.EDIT_TASK, TaskController.editTask);
 router.get(SERVER.GET_NODE_USERS, TaskController.getUsersOfNode);
+router.post(SERVER.ADD_TIMETRACK, TaskController.addTimeTrack);
+router.get(SERVER.GET_TIMETRACK, TaskController.getTimeTrack);
 
 export default router;
