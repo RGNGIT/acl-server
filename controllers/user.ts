@@ -64,8 +64,9 @@ class UserController {
     try {
       const { id } = req.params;
       const user = await UserService.fetchOneByKey(id);
-      const userRole = user?.Role_Key ? await UserService.fetchUserRoleByKey(user.Role_Key) : null;
+      const userRole = user?.Role_Key ? await UserService.fetchUserRoleByKey(user.User_Role_Key) : null;
       const role = await RoleService.fetchOneByPhysKey(id);
+      user.Role_Key = role.Key;
       const exp = role?.Exp_Key ? await UserService.fetchExpDataByKey(role.Exp_Key) : null;
       const duty = role?.Duty_Key ? await RoleService.fetchOneDutyByKey(role.Duty_Key) : null;
       res.json({ ...user, ...userRole, ...duty, ...exp });
