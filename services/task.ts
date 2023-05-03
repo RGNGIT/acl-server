@@ -12,7 +12,7 @@ class TaskService {
     return await (new MySQL2Commander).queryExec(`INSERT INTO role_node (${Object.keys(block).join(", ")}) VALUES (${Object.values(block).join(", ")});`);
   }
   async fetchUserNodes(Key) {
-    return await (new MySQL2Commander).queryExec(`SELECT d.Key, d.Name, d.ShName FROM phys as a, role as b, role_node as c, node as d WHERE a.Role_Key = b.Key AND b.Key = c.Role_Key AND c.Node_Key = d.Key AND a.Key = ${Key};`);
+    return await (new MySQL2Commander).queryExec(`SELECT d.Key, d.Name, d.ShName FROM phys as a, role as b, role_node as c, node as d WHERE c.Role_Key = b.Key AND b.Key = c.Role_Key AND c.Node_Key = d.Key AND a.Key = ${Key};`);
   }
   async fetchUsersTasksByKey(Key, Node_Key) {
     return await (new MySQL2Commander).queryExec(`
@@ -38,7 +38,7 @@ class TaskService {
     WHERE a.Node_Key = ${Key} AND b.Key = a.Priority_Key AND c.Key = ${Key};`);
   }
   async fetchTaskUser(Key) {
-    return await (new MySQL2Commander).queryExec(`SELECT b.Key as RoleKey, c.Key as PhysKey, c.Surname, c.Name, c.Patron, d.Name as DutyName FROM claim as a, role as b, phys as c, duty as d WHERE a.Role_Key = b.Key AND c.Role_Key = b.Key AND d.Key = b.Duty_Key AND a.Task_Key = ${Key};`);
+    return await (new MySQL2Commander).queryExec(`SELECT b.Key as RoleKey, c.Key as PhysKey, c.Surname, c.Name, c.Patron, d.Name as DutyName FROM claim as a, role as b, phys as c, duty as d WHERE a.Role_Key = b.Key AND b.Phys_Key = c.Key AND b.Duty_Key = d.Key AND a.Task_Key = ${Key};`);
   }
   async fetchTaskType(Key) {
     return await (new MySQL2Commander).queryExec(`SELECT * FROM task_type WHERE task_type.Key = ${Key};`);
