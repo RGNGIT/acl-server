@@ -2,13 +2,13 @@ import MySQL2Commander from "../mysqlCommander";
 import { formSets } from "./misc";
 
 class TaskService {
-  async addNew(block: {Name, Description, OpenDate, PlannedCloseDate, Priority_Key, Node_Key, Task_Type_Key}) {
+  async addNew(block: { Name, Description, OpenDate, PlannedCloseDate, Priority_Key, Node_Key, Task_Type_Key }) {
     return await (new MySQL2Commander).queryExec(`INSERT INTO task (${Object.keys(block).join(", ")}) VALUES (${Object.values(block).join(", ")});`);
   }
-  async connectTaskUser(block: {Role_Key, Task_Key}) {
+  async connectTaskUser(block: { Role_Key, Task_Key }) {
     return await (new MySQL2Commander).queryExec(`INSERT INTO claim (${Object.keys(block).join(", ")}, DateAttach) VALUES (${Object.values(block).join(", ")}, NOW());`);
   }
-  async connectNodeUser(block: {Role_Key, Node_Key}) {
+  async connectNodeUser(block: { Role_Key, Node_Key }) {
     return await (new MySQL2Commander).queryExec(`INSERT INTO role_node (${Object.keys(block).join(", ")}) VALUES (${Object.values(block).join(", ")});`);
   }
   async fetchUserNodes(Key) {

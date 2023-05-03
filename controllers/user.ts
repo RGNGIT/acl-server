@@ -14,7 +14,7 @@ class UserController {
         Patron: `'${patron}'`,
         Login: `'${login}'`
       }, password);
-      res.json({ token: await (new AuthService).generateToken({ Key: newUser.insertId, Login: login }) });
+      res.json({ Key: newUser.insertId, token: await (new AuthService).generateToken({ Key: newUser.insertId, Login: login }) });
     } catch (err) {
       console.log(err);
       res.json(err);
@@ -32,7 +32,7 @@ class UserController {
   }
   async editUser(req: Request, res: Response): Promise<void> {
     try {
-      const {id} = req.params;
+      const { id } = req.params;
       const { surname, name, patron, login, password } = req.body;
       await UserService.editOneByKey(id, { Surname: surname, Name: name, Patron: patron, Login: login, Password: EncryptService.encrypt(password) });
       res.send("OK");
@@ -68,7 +68,7 @@ class UserController {
       const role = await RoleService.fetchOneByPhysKey(id);
       const exp = role?.Exp_Key ? await UserService.fetchExpDataByKey(role.Exp_Key) : null;
       const duty = role?.Duty_Key ? await RoleService.fetchOneDutyByKey(role.Duty_Key) : null;
-      res.json({...user, ...userRole, ...duty, ...exp});
+      res.json({ ...user, ...userRole, ...duty, ...exp });
     } catch (err) {
       console.log(err);
       res.json(err);

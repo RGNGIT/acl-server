@@ -29,7 +29,7 @@ class RoleController {
       res.json(err);
     }
   }
-  
+
 }
 
 export default new RoleController();

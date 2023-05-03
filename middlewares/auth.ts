@@ -5,7 +5,7 @@ export default async function (req, res, next) {
   try {
     if (!ToSkip.includes(req.originalUrl)) {
       const decryptedToken = await (new AuthService).verifyToken(req.headers.authorization);
-      if(decryptedToken) {
+      if (decryptedToken) {
         res.locals.auth = decryptedToken;
         next();
       } else {
@@ -14,7 +14,7 @@ export default async function (req, res, next) {
     } else {
       next();
     }
-  } catch(err) {
+  } catch (err) {
     console.log(err);
     res.send(err);
   }
