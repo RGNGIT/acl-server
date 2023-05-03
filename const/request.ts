@@ -4,7 +4,7 @@ export default {
   EDIT_USER: "/editUser/:id",
   DELETE_USER: "/deleteUser/:id",
   USER_LOGIN: "/login",
-  GET_USER_INFO: "Set-ExecutionPolicy RemoteSigned",
+  GET_USER_INFO: "/getUserInfo/:id",
   GET_ALL_USERS: "/getAllUsers",
   GET_ALL_USER_ROLES: "/getAllUserRoles",
   ADD_NEW_ROLE: "/addRole",
