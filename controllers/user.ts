@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 import UserService from "../services/user";
 import AuthService from "../services/auth";
 import EncryptService from "../services/encrypt";
+import RoleService from "../services/role";
 
 class UserController {
   async regNewUser(req: Request, res: Response): Promise<void> {
@@ -63,8 +64,11 @@ class UserController {
     try {
       const { id } = req.params;
       const user = await UserService.fetchOneByKey(id);
-      const role = await UserService.fetchUserRoleByKey(user.Role_Key);
-      res.json({...user, ...role});
+      const userRole = await UserService.fetchUserRoleByKey(user.Role_Key);
+      const role = await RoleService.fetchOneByPhysKey(id);
+      const exp = await UserService.fetchExpDataByKey(role.Exp_Key);
+      const duty = await RoleService.fetchOneDutyByKey(role.Duty_Key)
+      res.json({...user, ...userRole, ...duty, ...exp});
     } catch (err) {
       console.log(err);
       res.json(err);

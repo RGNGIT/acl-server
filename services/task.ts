@@ -1,4 +1,3 @@
-import { isAwaitExpression } from "typescript";
 import MySQL2Commander from "../mysqlCommander";
 import { formSets } from "./misc";
 
@@ -50,11 +49,12 @@ class TaskService {
   async fetchNodesUsersByKey(Key) {
     return await (new MySQL2Commander).queryExec(`
     SELECT a.Key as PhysKey, a.Name, a.Surname, a.Patron, a.Login, 
-    b.Key as RoleKey, d.Key as DutyKey, d.Name as DutyName 
-    FROM phys as a, role as b, role_node as c, duty as d 
+    b.Key as RoleKey, d.Key as DutyKey, d.Name as DutyName, e.Name as ExpName 
+    FROM phys as a, role as b, role_node as c, duty as d, exp as e
     WHERE a.Key = b.Phys_Key AND 
     b.Duty_Key = d.Key AND 
     b.Key = c.Role_Key AND 
+    e.Key = b.Duty_Key AND
     c.Node_Key = ${Key};`
     );
   }

@@ -35,6 +35,9 @@ class UserService {
   async fetchUserRoleByKey(Key) {
     return (await (new MySQL2Commander).queryExec(`SELECT Name as Role_Name, ShName as Role_ShName FROM user_role WHERE user_role.Key = ${Key};`))[0];
   }
+  async fetchExpDataByKey(Key) {
+    return (await (new MySQL2Commander).queryExec(`SELECT exp.Name as ExpName, exp.ShName as ExpShName FROM exp WHERE exp.Key = ${Key};`))[0];
+  }
 }
 
 export default new UserService();
