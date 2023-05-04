@@ -78,6 +78,12 @@ class UserController {
   async getAllUsers(req: Request, res: Response): Promise<void> {
     try {
       const users = await UserService.fetchAll();
+      for(const user of users) {
+        const role = await RoleService.fetchOneByPhysKey(user.Key);
+        if(role) {
+          user.Role = role;
+        }
+      }
       res.json(users);
     } catch (err) {
       console.log(err);
