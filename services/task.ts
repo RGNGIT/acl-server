@@ -38,7 +38,7 @@ class TaskService {
     WHERE a.Node_Key = ${Key} AND b.Key = a.Priority_Key AND c.Key = ${Key};`);
   }
   async fetchTaskUser(Key) {
-    return await (new MySQL2Commander).queryExec(`SELECT b.Key as RoleKey, c.Key as PhysKey, c.Surname, c.Name, c.Patron, d.Name as DutyName FROM claim as a, role as b, phys as c, duty as d WHERE a.Role_Key = b.Key AND b.Phys_Key = c.Key AND b.Duty_Key = d.Key AND a.Task_Key = ${Key};`);
+    return await (new MySQL2Commander).queryExec(`SELECT b.Key as RoleKey, c.Key as PhysKey, c.Surname, c.Name, c.Patron, d.Name as DutyName, e.Name as ExpName FROM claim as a, role as b, phys as c, duty as d, exp as e WHERE a.Role_Key = b.Key AND b.Phys_Key = c.Key AND b.Duty_Key = d.Key AND b.Exp_Key = e.Key AND a.Task_Key = ${Key};`);
   }
   async fetchTaskType(Key) {
     return await (new MySQL2Commander).queryExec(`SELECT * FROM task_type WHERE task_type.Key = ${Key};`);
