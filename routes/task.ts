@@ -14,5 +14,6 @@ router.patch(SERVER.EDIT_TASK, TaskController.editTask);
 router.get(SERVER.GET_NODE_USERS, TaskController.getUsersOfNode);
 router.post(SERVER.ADD_TIMETRACK, TaskController.addTimeTrack);
 router.get(SERVER.GET_TIMETRACK, TaskController.getTimeTrack);
+router.patch(SERVER.UPDATE_ROLE_TASK, TaskController.updateUserTask);
 
 export default router;

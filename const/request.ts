@@ -16,6 +16,7 @@ export default {
   // Таски
   ADD_TASK: "/addTask",
   CONNECT_ROLE_TASK: "/connectRoleTask",
+  UPDATE_ROLE_TASK: "/updateRoleTask",
   GET_USER_TASKS: "/getUserTasks/:id",
   GET_NODE_TASKS: "/getNodeTasks/:id",
   CONNECT_USER_NODE: "/connectUserNode",

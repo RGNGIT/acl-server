@@ -67,6 +67,16 @@ class TaskController {
       res.json(err);
     }
   }
+  async updateUserTask(req: Request, res: Response): Promise<void> {
+    try {
+      const { taskKey, roleKey } = req.body;
+      await TaskService.updateUserTask(taskKey, roleKey);
+      res.send("OK");
+    } catch (err) {
+      console.log(err);
+      res.json(err);
+    }
+  }
   async connectUserNode(req: Request, res: Response): Promise<void> {
     try {
       const { roleKey, nodeKey } = req.body;

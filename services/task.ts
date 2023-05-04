@@ -64,6 +64,9 @@ class TaskService {
   async fetchTimetrackByRoleKey(Key) {
     return await (new MySQL2Commander).queryExec(`SELECT * FROM timetrack WHERE timetrack.Role_Key = ${Key};`);
   }
+  async updateUserTask(TaskKey, RoleKey) {
+    return await (new MySQL2Commander).queryExec(`UPDATE claim SET claim.Role_Key = ${RoleKey} WHERE claim.Task_Key = ${TaskKey};`);
+  }
 }
 
 export default new TaskService;
