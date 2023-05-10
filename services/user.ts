@@ -3,7 +3,7 @@ import EncryptService from "./encrypt";
 import { formSets } from "./misc";
 
 class UserService {
-  async addUser(block: { Surname, Name, Patron, Login }, Password) {
+  async addUser(block: { Surname, Name, Patron, Login, User_Role_Key }, Password) {
     const res = await (new MySQL2Commander).queryExec(`
     INSERT INTO phys (${Object.keys(block).join(', ')}, Password) 
     VALUES (${Object.values(block).join(', ')}, '${EncryptService.encrypt(Password)}');

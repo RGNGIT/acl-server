@@ -7,12 +7,13 @@ import RoleService from "../services/role";
 class UserController {
   async regNewUser(req: Request, res: Response): Promise<void> {
     try {
-      const { surname, name, patron, login, password } = req.body;
+      const { surname, name, patron, login, password, userRoleKey } = req.body;
       const newUser = await UserService.addUser({
         Surname: `'${surname}'`,
         Name: `'${name}'`,
         Patron: `'${patron}'`,
-        Login: `'${login}'`
+        Login: `'${login}'`,
+        User_Role_Key: `${userRoleKey}`
       }, password);
       res.json({ Key: newUser.insertId, token: await (new AuthService).generateToken({ Key: newUser.insertId, Login: login }) });
     } catch (err) {
