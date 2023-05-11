@@ -8,6 +8,7 @@ export default {
   GET_ALL_USERS: "/getAllUsers",
   GET_ALL_USER_ROLES: "/getAllUserRoles",
   ADD_NEW_ROLE: "/addRole",
+  EDIT_ROLE: "/editRole",
   // Словари
   ADD_DICTIONARY: "/addDictionary/:table",
   GET_DICTIONARY: "/getDictionary/:table",
