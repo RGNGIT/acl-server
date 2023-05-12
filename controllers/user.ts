@@ -35,7 +35,13 @@ class UserController {
     try {
       const { id } = req.params;
       const { surname, name, patron, login, password, userRoleKey } = req.body;
-      await UserService.editOneByKey(id, { Surname: surname, Name: name, Patron: patron, Login: login, Password: EncryptService.encrypt(password), User_Role_Key: userRoleKey });
+      await UserService.editOneByKey(id, { 
+        Surname: surname, 
+        Name: name, Patron: patron, 
+        Login: login, 
+        Password: password ? EncryptService.encrypt(password) : null, 
+        User_Role_Key: userRoleKey 
+      });
       res.send("OK");
     } catch (err) {
       console.log(err);
