@@ -19,13 +19,15 @@ class TaskService {
     SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, a.Task_Type_Key as TaskType, 
     b.Key as ClaimKey, b.DateAttach, b.DateDetach, 
     d.Key as PriorityKey, d.Name as PriorityName, d.ShName as PriorityShName, 
-    e.Key as NodeKey, e.Name as NodeName, e.ShName as NodeShName  
-    FROM task as a, claim as b, role as c, priority as d, node as e, role_node as f
+    e.Key as NodeKey, e.Name as NodeName, e.ShName as NodeShName,
+    g.Name as StatusName
+    FROM task as a, claim as b, role as c, priority as d, node as e, role_node as f, task_status as g
     WHERE a.Key = b.Task_Key AND 
     b.Role_Key = c.Key AND 
     d.Key = a.Priority_Key AND 
     e.Key = a.Node_Key AND 
     f.Role_Key = c.Key AND 
+    g.Key = a.Task_Status_Key AND 
     f.Node_Key = ${Node_Key} AND 
     c.Phys_Key = ${Key};`);
   }
@@ -34,8 +36,8 @@ class TaskService {
     SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, a.Task_Type_Key as TaskType, 
     b.Key as PriorityKey, b.Name as PriorityName, b.ShName as PriorityShName, 
     c.Key as NodeKey, c.Name as NodeName, c.ShName as NodeShName 
-    FROM task as a, priority as b, node as c
-    WHERE a.Node_Key = ${Key} AND b.Key = a.Priority_Key AND c.Key = ${Key};`);
+    FROM task as a, priority as b, node as c, task_status as d 
+    WHERE a.Node_Key = ${Key} AND d.Key = a.Task_Status_Key AND b.Key = a.Priority_Key AND c.Key = ${Key};`);
   }
   async fetchTaskUser(Key) {
     return await (new MySQL2Commander).queryExec(`SELECT b.Key as RoleKey, c.Key as PhysKey, c.Surname, c.Name, c.Patron, d.Name as DutyName, e.Name as ExpName FROM claim as a, role as b, phys as c, duty as d, exp as e WHERE a.Role_Key = b.Key AND b.Phys_Key = c.Key AND b.Duty_Key = d.Key AND b.Exp_Key = e.Key AND a.Task_Key = ${Key};`);

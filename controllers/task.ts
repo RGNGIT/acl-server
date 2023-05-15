@@ -39,7 +39,8 @@ class TaskController {
         factDate,
         priorityKey,
         nodeKey,
-        typeKey
+        typeKey,
+        statusKey
       } = req.body;
       await TaskService.editTaskByKey(id, {
         Name: `${name}`,
@@ -49,7 +50,8 @@ class TaskController {
         FactCloseDate: factDate ? `STR_TO_DATE('${factDate}', '%Y-%m-%d')` : null,
         Priority_Key: priorityKey,
         Node_Key: nodeKey,
-        Task_Type_Key: typeKey
+        Task_Type_Key: typeKey,
+        Task_Status_Key: statusKey
       });
       res.send("OK");
     } catch (err) {
