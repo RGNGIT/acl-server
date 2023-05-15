@@ -12,7 +12,7 @@ class TaskService {
     return await (new MySQL2Commander).queryExec(`INSERT INTO role_node (${Object.keys(block).join(", ")}) VALUES (${Object.values(block).join(", ")});`);
   }
   async fetchUserNodes(Key) {
-    return await (new MySQL2Commander).queryExec(`SELECT d.Key, d.Name, d.ShName FROM phys as a, role as b, role_node as c, node as d WHERE c.Role_Key = b.Key AND b.Key = c.Role_Key AND c.Node_Key = d.Key AND a.Key = ${Key};`);
+    return await (new MySQL2Commander).queryExec(`SELECT d.Key, d.Name, d.ShName FROM phys as a, role as b, role_node as c, node as d WHERE b.Phys_Key = a.Key AND c.Role_Key = b.Key AND b.Key = c.Role_Key AND c.Node_Key = d.Key AND a.Key = ${Key};`);
   }
   async fetchUsersTasksByKey(Key, Node_Key) {
     return await (new MySQL2Commander).queryExec(`
