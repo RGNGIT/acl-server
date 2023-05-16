@@ -45,8 +45,8 @@ class TaskService {
   async fetchTaskType(Key) {
     return await (new MySQL2Commander).queryExec(`SELECT * FROM task_type WHERE task_type.Key = ${Key};`);
   }
-  async editTaskByKey(Key, block) {
-    return await (new MySQL2Commander).queryExec(`UPDATE task SET ${formSets(block)} WHERE task.Key = ${Key};`);
+  async editTaskByKey(Key, block, openDate, plannedCloseDate, factCloseDate) {
+    return await (new MySQL2Commander).queryExec(`UPDATE task SET ${formSets(block)}, ${openDate ? `OpenDate = ${openDate},` : null} ${plannedCloseDate ? `PlannedCloseDate = ${plannedCloseDate},` : ''} ${factCloseDate ? `FactCloseDate = ${factCloseDate},` : null} WHERE task.Key = ${Key};`);
   }
   async fetchNodesUsersByKey(Key) {
     return await (new MySQL2Commander).queryExec(`

@@ -45,14 +45,15 @@ class TaskController {
       await TaskService.editTaskByKey(id, {
         Name: `${name}`,
         Description: `${description}`,
-        OpenDate: openDate ? `STR_TO_DATE('${openDate}', '%Y-%m-%d')` : null,
-        PlannedCloseDate: plannedDate ? `STR_TO_DATE('${plannedDate}', '%Y-%m-%d')` : null,
-        FactCloseDate: factDate ? `STR_TO_DATE('${factDate}', '%Y-%m-%d')` : null,
         Priority_Key: priorityKey,
         Node_Key: nodeKey,
         Task_Type_Key: typeKey,
         Task_Status_Key: statusKey
-      });
+      },
+        openDate ? `STR_TO_DATE('${openDate}', '%Y-%m-%d')` : null,
+        plannedDate ? `STR_TO_DATE('${plannedDate}', '%Y-%m-%d')` : null,
+        factDate ? `STR_TO_DATE('${factDate}', '%Y-%m-%d')` : null
+      );
       res.send("OK");
     } catch (err) {
       console.log(err);
