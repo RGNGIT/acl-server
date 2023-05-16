@@ -35,7 +35,7 @@ class TaskService {
     return await (new MySQL2Commander).queryExec(`
     SELECT a.Key as TaskKey, a.Name, a.Description, a.OpenDate, a.PlannedCloseDate, a.FactCloseDate, a.Task_Type_Key as TaskType, 
     b.Key as PriorityKey, b.Name as PriorityName, b.ShName as PriorityShName, 
-    c.Key as NodeKey, c.Name as NodeName, c.ShName as NodeShName 
+    c.Key as NodeKey, c.Name as NodeName, c.ShName as NodeShName, d.Name as StatusName 
     FROM task as a, priority as b, node as c, task_status as d 
     WHERE a.Node_Key = ${Key} AND d.Key = a.Task_Status_Key AND b.Key = a.Priority_Key AND c.Key = ${Key};`);
   }
