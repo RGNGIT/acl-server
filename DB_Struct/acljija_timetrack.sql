@@ -16,18 +16,23 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `rule`
+-- Table structure for table `timetrack`
 --
 
-DROP TABLE IF EXISTS `rule`;
+DROP TABLE IF EXISTS `timetrack`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `rule` (
+CREATE TABLE `timetrack` (
   `Key` int NOT NULL AUTO_INCREMENT,
-  `Name` varchar(45) DEFAULT NULL,
-  `ShName` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`Key`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `Time` int DEFAULT NULL,
+  `Role_Key` int DEFAULT NULL,
+  `Task_Key` int DEFAULT NULL,
+  PRIMARY KEY (`Key`),
+  KEY `Role_Key` (`Role_Key`),
+  KEY `Task_Key` (`Task_Key`),
+  CONSTRAINT `timetrack_ibfk_1` FOREIGN KEY (`Role_Key`) REFERENCES `role` (`Key`),
+  CONSTRAINT `timetrack_ibfk_2` FOREIGN KEY (`Task_Key`) REFERENCES `task` (`Key`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

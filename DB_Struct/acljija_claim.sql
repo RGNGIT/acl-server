@@ -1,6 +1,6 @@
--- MySQL dump 10.13  Distrib 8.0.32, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.33, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: acljija
+-- Host: 192.168.1.3    Database: acljija
 -- ------------------------------------------------------
 -- Server version	8.0.32
 
@@ -27,23 +27,14 @@ CREATE TABLE `claim` (
   `DateAttach` date DEFAULT NULL,
   `DateDetach` date DEFAULT NULL,
   `Role_Key` int DEFAULT NULL,
-  `Project_Key` int DEFAULT NULL,
+  `Task_Key` int DEFAULT NULL,
   PRIMARY KEY (`Key`),
   KEY `Role_Key` (`Role_Key`),
-  KEY `Project_Key` (`Project_Key`),
+  KEY `claim_ibfk_2` (`Task_Key`),
   CONSTRAINT `claim_ibfk_1` FOREIGN KEY (`Role_Key`) REFERENCES `role` (`Key`),
-  CONSTRAINT `claim_ibfk_2` FOREIGN KEY (`Project_Key`) REFERENCES `project` (`Key`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  CONSTRAINT `claim_ibfk_2` FOREIGN KEY (`Task_Key`) REFERENCES `task` (`Key`)
+) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `claim`
---
-
-LOCK TABLES `claim` WRITE;
-/*!40000 ALTER TABLE `claim` DISABLE KEYS */;
-/*!40000 ALTER TABLE `claim` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -54,4 +45,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-13 16:57:53
+-- Dump completed on 2023-05-20 19:10:06

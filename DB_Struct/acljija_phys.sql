@@ -1,6 +1,6 @@
--- MySQL dump 10.13  Distrib 8.0.32, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.33, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: acljija
+-- Host: 192.168.1.3    Database: acljija
 -- ------------------------------------------------------
 -- Server version	8.0.32
 
@@ -29,18 +29,12 @@ CREATE TABLE `phys` (
   `Patron` varchar(45) DEFAULT NULL,
   `Login` varchar(45) DEFAULT NULL,
   `Password` varchar(256) DEFAULT NULL,
-  PRIMARY KEY (`Key`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `User_Role_Key` int DEFAULT '1',
+  PRIMARY KEY (`Key`),
+  KEY `phys_ibfk_1` (`User_Role_Key`),
+  CONSTRAINT `phys_ibfk_1` FOREIGN KEY (`User_Role_Key`) REFERENCES `user_role` (`Key`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `phys`
---
-
-LOCK TABLES `phys` WRITE;
-/*!40000 ALTER TABLE `phys` DISABLE KEYS */;
-/*!40000 ALTER TABLE `phys` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -51,4 +45,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-13 16:57:53
+-- Dump completed on 2023-05-20 19:10:06

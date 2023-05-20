@@ -16,18 +16,22 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `rule`
+-- Table structure for table `role_node`
 --
 
-DROP TABLE IF EXISTS `rule`;
+DROP TABLE IF EXISTS `role_node`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `rule` (
+CREATE TABLE `role_node` (
   `Key` int NOT NULL AUTO_INCREMENT,
-  `Name` varchar(45) DEFAULT NULL,
-  `ShName` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`Key`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `Role_Key` int DEFAULT NULL,
+  `Node_Key` int DEFAULT NULL,
+  PRIMARY KEY (`Key`),
+  KEY `role_node` (`Role_Key`),
+  KEY `Node_Key` (`Node_Key`),
+  CONSTRAINT `role_node_ibfk_1` FOREIGN KEY (`Role_Key`) REFERENCES `role` (`Key`),
+  CONSTRAINT `role_node_ibfk_2` FOREIGN KEY (`Node_Key`) REFERENCES `node` (`Key`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -39,4 +43,4 @@ CREATE TABLE `rule` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-20 19:10:06
+-- Dump completed on 2023-05-20 19:10:07
