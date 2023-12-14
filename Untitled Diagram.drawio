@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T08:48:50.777Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xw_W9c_bBHBYhjpay1Yg" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T08:51:51.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="njBbOI2I-8XHB2GcSuEc" version="21.8.2" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
     <mxGraphModel dx="2012" dy="1816" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,7 +137,7 @@
           <mxGeometry x="237" y="768" width="234" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-ynzB96KipkDcy184xXd-8" value="Реализация коннектора к DirectumRX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="237" y="858" width="234" height="40" as="geometry" />
+          <mxGeometry x="237" y="864" width="234" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-ynzB96KipkDcy184xXd-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="645" y="468" width="740" height="445" as="geometry" />
@@ -198,8 +198,8 @@
             <mxPoint x="781" y="758" as="sourcePoint" />
             <mxPoint x="831" y="708" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="553" y="878" />
-              <mxPoint x="553" y="837" />
+              <mxPoint x="552" y="884" />
+              <mxPoint x="552" y="837" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -255,6 +255,20 @@
             <Array as="points">
               <mxPoint x="986" y="557" />
               <mxPoint x="986" y="652" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ynzB96KipkDcy184xXd-43" value="Компоновщик XML" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237" y="821.25" width="233" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-ynzB96KipkDcy184xXd-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-ynzB96KipkDcy184xXd-43" target="-ynzB96KipkDcy184xXd-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="524" y="795" as="sourcePoint" />
+            <mxPoint x="574" y="745" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="516" y="840" />
+              <mxPoint x="516" y="812" />
+              <mxPoint x="518" y="557" />
             </Array>
           </mxGeometry>
         </mxCell>
