@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T12:55:39.959Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6ZXd4MRIru13JGOsBHIu" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T12:56:00.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WnkZ9IOkhimKZas8xogZ" version="22.1.11" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
     <mxGraphModel dx="1389" dy="1732" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         <mxCell id="-ynzB96KipkDcy184xXd-16" value="Обработчик XML файлов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="664" y="595" width="293" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-ynzB96KipkDcy184xXd-14" value="Коннектор к расшареной папке" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="-ynzB96KipkDcy184xXd-14" value="Коннектор к удаленной папке" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="671" y="632" width="279" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-ynzB96KipkDcy184xXd-17" value="Парсер XML файлов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -251,7 +251,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-ynzB96KipkDcy184xXd-40" value="Расшареная папка" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="-ynzB96KipkDcy184xXd-40" value="Удаленная папка" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="664" y="537" width="292" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-ynzB96KipkDcy184xXd-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-ynzB96KipkDcy184xXd-40" target="-ynzB96KipkDcy184xXd-14" edge="1">
