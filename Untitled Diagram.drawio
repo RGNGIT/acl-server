@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T11:23:07.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="no50mMtOldLyJjIu-ceU" version="22.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T12:17:20.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="z3LPwMExOjNTPpFLIlZ5" version="22.1.12" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
     <mxGraphModel dx="1830" dy="3981" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -586,13 +586,13 @@
         <mxCell id="Q_GU_YZRETxvtpmEiv-W-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;DIRECTUM RX&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="595" y="1414.5" width="675" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Q_GU_YZRETxvtpmEiv-W-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q_GU_YZRETxvtpmEiv-W-4" target="Q_GU_YZRETxvtpmEiv-W-8">
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q_GU_YZRETxvtpmEiv-W-4" target="Q_GU_YZRETxvtpmEiv-W-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="464" y="1581" as="sourcePoint" />
             <mxPoint x="514" y="1531" as="targetPoint" />
             <Array as="points">
               <mxPoint x="528" y="1588" />
-              <mxPoint x="528" y="1548" />
+              <mxPoint x="528" y="1558" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -741,6 +741,56 @@
         </mxCell>
         <mxCell id="Q_GU_YZRETxvtpmEiv-W-50" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Сущность DRX&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="908" y="1547" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-51" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Synchronization 1C&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="512" y="1474.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q_GU_YZRETxvtpmEiv-W-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="1522" as="sourcePoint" />
+            <mxPoint x="547" y="1504" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="577" y="1538" />
+              <mxPoint x="577" y="1504" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="Q_GU_YZRETxvtpmEiv-W-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="506" y="1505" as="sourcePoint" />
+            <mxPoint x="523" y="1412" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="478" y="1505" />
+              <mxPoint x="478" y="1578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-58" value="Токен" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542" y="1478" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-59" value="Токен" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="456" y="1478" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-64" value="XML-файл" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="492" y="1858" width="77" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-65" value="XML-файл" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="775" y="2000.75" width="77" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-66" value="XML-файл" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="921" y="1862" width="77" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-67" value="Сотрудник" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="963" y="1915" width="76" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-68" value="Должность" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="966" y="1973" width="79" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-69" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Подразделение&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="963" y="2028.5" width="91" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_GU_YZRETxvtpmEiv-W-71" value="Персона" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="975.5" y="2086" width="66" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
