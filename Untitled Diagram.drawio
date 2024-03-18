@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T08:14:38.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="TkOrWn0YIIGz9Fk-xyDZ" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T07:58:34.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="h3S4wxrVHaq5UpiWFN7a" version="24.0.5" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
     <mxGraphModel dx="1830" dy="3981" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -828,48 +828,54 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vGzXs2BSz0o-XKBtbkvi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1003" y="2183" width="291" height="125" as="geometry" />
+          <mxGeometry x="749" y="2965" width="291" height="125" as="geometry" />
         </mxCell>
         <mxCell id="vGzXs2BSz0o-XKBtbkvi-2" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;ACTIVE DIRECTORY&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1003" y="2183" width="291" height="60" as="geometry" />
+          <mxGeometry x="749" y="2965" width="291" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vGzXs2BSz0o-XKBtbkvi-3" value="Реестр &quot;Сотрудники&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1012" y="2255" width="273" height="40" as="geometry" />
+          <mxGeometry x="758" y="3037" width="273" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vGzXs2BSz0o-XKBtbkvi-6" value="Логин" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1395" y="1993" width="60" height="30" as="geometry" />
+          <mxGeometry x="1141" y="2775" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vGzXs2BSz0o-XKBtbkvi-7" value="Фотография" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="2020" width="86" height="26" as="geometry" />
+          <mxGeometry x="1146" y="2802" width="86" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vGzXs2BSz0o-XKBtbkvi-8" value="Телефон" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="2046" width="68" height="26" as="geometry" />
+          <mxGeometry x="1146" y="2828" width="68" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vGzXs2BSz0o-XKBtbkvi-9" value="Сертификат" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1293" y="2196" width="86" height="26" as="geometry" />
+          <mxGeometry x="1039" y="2978" width="86" height="26" as="geometry" />
         </mxCell>
         <mxCell id="vGzXs2BSz0o-XKBtbkvi-10" value="Справочник &quot;Сертификаты&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1052" y="2115" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="em2WDGa4KqtazlFm6Q51-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vGzXs2BSz0o-XKBtbkvi-3" target="vGzXs2BSz0o-XKBtbkvi-10">
+        <mxCell id="em2WDGa4KqtazlFm6Q51-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vGzXs2BSz0o-XKBtbkvi-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1377" y="2279" as="sourcePoint" />
-            <mxPoint x="1427" y="2229" as="targetPoint" />
+            <mxPoint x="1123" y="3061" as="sourcePoint" />
+            <mxPoint x="1068" y="2917" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1377" y="2265" />
-              <mxPoint x="1377" y="2135" />
+              <mxPoint x="1123" y="3047" />
+              <mxPoint x="1123" y="2917" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="em2WDGa4KqtazlFm6Q51-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vGzXs2BSz0o-XKBtbkvi-3" target="Q_GU_YZRETxvtpmEiv-W-34">
+        <mxCell id="em2WDGa4KqtazlFm6Q51-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vGzXs2BSz0o-XKBtbkvi-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1327" y="2282" as="sourcePoint" />
-            <mxPoint x="1322" y="2152" as="targetPoint" />
+            <mxPoint x="1073" y="3064" as="sourcePoint" />
+            <mxPoint x="1068" y="2699" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1396" y="2284" />
-              <mxPoint x="1397" y="1917" />
+              <mxPoint x="1142" y="3066" />
+              <mxPoint x="1143" y="2699" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="13_NM--ma3KFR6427zXr-1" value="Сервер&amp;nbsp;HQ-CO1-DIRTEST&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="608" y="1855" width="165" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="13_NM--ma3KFR6427zXr-2" value="Файл конфигурации /srv/DirectumLauncher/etc/config.yml&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585.5" y="1873" width="372" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
