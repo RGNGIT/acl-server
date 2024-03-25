@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T11:54:51.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0OOZnoW1MnKhQJ5De4nx" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T11:55:26.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="5CMki0Wu--kHe4Zzd-9_" version="24.1.0" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="1388" dy="3739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2128" dy="4143" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -873,7 +873,7 @@
         <mxCell id="d3Vu2eU9R7Jkc9-0FyHv-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeOpacity=100;fillOpacity=100;fillColor=#e6ded0;" vertex="1" parent="1">
           <mxGeometry x="1438" y="-234" width="384" height="438" as="geometry" />
         </mxCell>
-        <mxCell id="d3Vu2eU9R7Jkc9-0FyHv-1" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;1C ЗУП&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=50;fontColor=#000000;fillColor=#f1b795;" vertex="1" parent="1">
+        <mxCell id="d3Vu2eU9R7Jkc9-0FyHv-1" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;1C ЗУП&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=50;fontColor=#000000;fillColor=#f1b795;" vertex="1" parent="1">
           <mxGeometry x="1443" y="-234" width="374" height="68" as="geometry" />
         </mxCell>
         <mxCell id="d3Vu2eU9R7Jkc9-0FyHv-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Справочник Сотрудников&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillOpacity=50;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
@@ -888,7 +888,7 @@
         <mxCell id="d3Vu2eU9R7Jkc9-0FyHv-8" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Реализация коннектора к системе DURECTUM RX&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillOpacity=50;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1461" y="134" width="319" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="d3Vu2eU9R7Jkc9-0FyHv-9" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;AD&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=50;fontColor=#000000;fillColor=#f1b795;" vertex="1" parent="1">
+        <mxCell id="d3Vu2eU9R7Jkc9-0FyHv-9" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;AD&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillOpacity=50;fontColor=#000000;fillColor=#f1b795;" vertex="1" parent="1">
           <mxGeometry x="1443" y="313" width="374" height="68" as="geometry" />
         </mxCell>
         <mxCell id="d3Vu2eU9R7Jkc9-0FyHv-10" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Учетные записи&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillOpacity=50;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
