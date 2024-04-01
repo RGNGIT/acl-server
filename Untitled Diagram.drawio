@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T10:54:39.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kWG0Yi-Fejn2MBN2n3Qn" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T11:07:42.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="g3yysgJyIdOaMYxyBitn" version="24.2.1" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="976" dy="3514" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1230" dy="3653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1082,17 +1082,17 @@
           <mxGeometry x="1652" y="1332" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CTsJBrLckSllQLuGeC6X-4" value="Справочник Контрагенты" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1664.5" y="1495.5" width="234" height="40" as="geometry" />
+          <mxGeometry x="1664.5" y="1519" width="234" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CTsJBrLckSllQLuGeC6X-5" value="Реализация коннектора к DirectumRX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1664.5" y="1573.5" width="234" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CTsJBrLckSllQLuGeC6X-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="CTsJBrLckSllQLuGeC6X-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTsJBrLckSllQLuGeC6X-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1664.5" y="1515.5" as="sourcePoint" />
             <mxPoint x="1664.5" y="1593.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1646" y="1516" />
+              <mxPoint x="1646" y="1539" />
               <mxPoint x="1646" y="1593" />
             </Array>
           </mxGeometry>
@@ -1131,17 +1131,7 @@
           <mxGeometry x="2361" y="1552.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CTsJBrLckSllQLuGeC6X-24" value="Документы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1665" y="1420" width="234" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="CTsJBrLckSllQLuGeC6X-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="CTsJBrLckSllQLuGeC6X-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1664.5" y="1438.75" as="sourcePoint" />
-            <mxPoint x="1664.5" y="1516.75" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1642" y="1439" />
-              <mxPoint x="1641" y="1603" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="1664.5" y="1465" width="234" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CTsJBrLckSllQLuGeC6X-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CTsJBrLckSllQLuGeC6X-5" target="CTsJBrLckSllQLuGeC6X-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1150,6 +1140,16 @@
             <Array as="points">
               <mxPoint x="1994" y="1593" />
               <mxPoint x="1994" y="1553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTsJBrLckSllQLuGeC6X-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="CTsJBrLckSllQLuGeC6X-5" target="CTsJBrLckSllQLuGeC6X-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1621" y="1491" as="sourcePoint" />
+            <mxPoint x="1671" y="1441" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1636" y="1603" />
+              <mxPoint x="1636" y="1485" />
             </Array>
           </mxGeometry>
         </mxCell>
