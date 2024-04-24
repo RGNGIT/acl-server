@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T13:23:21.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xJv-wq9e9JsllhaELWag" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T09:11:58.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="WEAGEh8ojbgEpP2mcjSG" version="24.2.7" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="2128" dy="6143" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1521" dy="5812" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1549,6 +1549,18 @@
             <mxPoint x="2555" y="-3628" as="sourcePoint" />
             <mxPoint x="2605" y="-3678" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4vCp_2KGRRujwla0_1C3-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2379" y="-2486" width="251" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4vCp_2KGRRujwla0_1C3-26" value="Тип комнаты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="2439" y="-2486" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4vCp_2KGRRujwla0_1C3-28" value="#*Код" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2379" y="-2456" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4vCp_2KGRRujwla0_1C3-29" value="*Название" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2389" y="-2433" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
