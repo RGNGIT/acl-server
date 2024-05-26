@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T18:18:49.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="u98XBM4BrWxu4B_K1Kdr" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-26T20:21:07.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Xu3PFxHd6xh6iJPogZ4Z" version="24.4.8" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="1830" dy="7981" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2128" dy="8943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2054,6 +2054,42 @@
             <mxPoint x="1563" y="-6536" as="sourcePoint" />
             <mxPoint x="1613" y="-6586" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-21" value="&lt;b&gt;Обучение нейронной сети&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="966" y="-7517" width="294" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-22" value="Данные:^Датасет звуков&lt;br&gt;Результат:^ Обученная сеть" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PaYFjOhxecUokfwEp8FN-21">
+          <mxGeometry y="30" width="294" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="966" y="-7438" width="294" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-27" value="Загрузить()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1083" y="-7434" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-28" value="Обучить()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1083" y="-7413" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-29" value="Обработать()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1083" y="-7392" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-30" value="&lt;b&gt;Обучение нейронной сети&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="-7712" width="294" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-31" value="Данные:^Датасет звуков&lt;br&gt;Результат:^ Обученная сеть" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PaYFjOhxecUokfwEp8FN-30">
+          <mxGeometry y="30" width="294" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="-7633" width="294" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-33" value="Загрузить()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1476" y="-7629" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-34" value="Обучить()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1476" y="-7608" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-35" value="Обработать()" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1476" y="-7587" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
