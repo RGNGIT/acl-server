@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T20:46:46.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ZD-cZ62kPNOBt0H2zCHC" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T05:22:22.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="e2Ub2tYXr7tZzUcRX1Qw" version="24.4.8" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="976" dy="8314" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1704" dy="9502" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2243,6 +2243,114 @@
             <mxPoint x="696" y="-7695" as="sourcePoint" />
             <mxPoint x="704" y="-7705" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-74" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="792" y="-8744" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-75" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="807" y="-8284" as="sourcePoint" />
+            <mxPoint x="807" y="-8684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-76" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1011" y="-8284" as="sourcePoint" />
+            <mxPoint x="1011" y="-8684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-77" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1218" y="-8284" as="sourcePoint" />
+            <mxPoint x="1218" y="-8684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-78" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1421" y="-8284" as="sourcePoint" />
+            <mxPoint x="1421" y="-8684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-79" value="Окно инициации обучения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="951" y="-8744" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-80" value="Преобразование звуков/сигналов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1158" y="-8744" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-81" value="Формирование датасета" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1362" y="-8744" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-82" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1623.5" y="-8284" as="sourcePoint" />
+            <mxPoint x="1623.5" y="-8684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-83" value="Обучение нейросети" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1564.5" y="-8744" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="807" y="-8633" as="sourcePoint" />
+            <mxPoint x="1011" y="-8633" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-85" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="-8600" as="sourcePoint" />
+            <mxPoint x="808" y="-8600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="808" y="-8563" as="sourcePoint" />
+            <mxPoint x="1216" y="-8563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-87" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1218" y="-8529" as="sourcePoint" />
+            <mxPoint x="1422" y="-8529" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-88" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420.5" y="-8485" as="sourcePoint" />
+            <mxPoint x="1624.5" y="-8485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-89" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1218" y="-8436" as="sourcePoint" />
+            <mxPoint x="1011" y="-8436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-90" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1011" y="-8395" as="sourcePoint" />
+            <mxPoint x="1623" y="-8395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-92" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1421" y="-8356" as="sourcePoint" />
+            <mxPoint x="808" y="-8356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-93" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1622" y="-8316" as="sourcePoint" />
+            <mxPoint x="807" y="-8316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-94" value="1. Вызов" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="872" y="-8660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-96" value="2. Вывод окна" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="875" y="-8630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-97" value="3. Загрузка аналогового звука" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="921" y="-8566" width="175" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
