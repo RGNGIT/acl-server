@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T06:21:22.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="xzN_18CL5FRXYw6kmkts" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T06:24:41.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qCQ5ypOZnapOKaNmunMA" version="24.4.8" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="1464" dy="11381" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1437" dy="11366" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2590,6 +2590,57 @@
         </mxCell>
         <mxCell id="PaYFjOhxecUokfwEp8FN-214" value="entry/Результаты предварительной обработки&lt;br&gt;do/Подача данных на вход нейросети&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;exit/Результат&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="PaYFjOhxecUokfwEp8FN-213">
           <mxGeometry y="30" width="295" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-215" value="Процесс обучения" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1381.5" y="-10269" width="295" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-216" value="entry/Процесс обучения нейросети&lt;br&gt;do/Построение весов персептрона на основе входных данных&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;exit/Завершение процесса обучения&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="PaYFjOhxecUokfwEp8FN-215">
+          <mxGeometry y="30" width="295" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-217" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1528.74" y="-10270" as="targetPoint" />
+            <mxPoint x="1528.74" y="-10333" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-218" value="Обучение успешно?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1456.75" y="-10068" width="144.5" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-219" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1528.79" y="-10068" as="targetPoint" />
+            <mxPoint x="1528.79" y="-10131" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-220" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PaYFjOhxecUokfwEp8FN-221">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1659.25" y="-9906" as="targetPoint" />
+            <mxPoint x="1601.25" y="-10009" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-221" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1661.25" y="-10024" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-222" value="Вывод обученой и датасета" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=42;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1381.5" y="-9886" width="295" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-223" value="entry/Получение результата обучения&lt;br&gt;do/Агрегация данных нейросети и датасета&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;exit/Вывод&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="PaYFjOhxecUokfwEp8FN-222">
+          <mxGeometry y="30" width="295" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-224" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1528.7" y="-9887" as="targetPoint" />
+            <mxPoint x="1528.7" y="-9950" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-225" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1514" y="-9686" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PaYFjOhxecUokfwEp8FN-226" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1528.75" y="-9685" as="targetPoint" />
+            <mxPoint x="1528.75" y="-9748" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
