@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-13T07:02:01.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="cA9f9zJgdJ2mjDCIN_oQ" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-13T07:12:50.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="6UkY0vFgQyG1I2hualhA" version="24.4.10" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
     <mxGraphModel dx="1388" dy="12939" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2829,6 +2829,18 @@
         </mxCell>
         <mxCell id="PRMDEGB_TDhuan0nxpVB-10" value="Задачи для достижения цели:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="411" y="-11882" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PRMDEGB_TDhuan0nxpVB-11" value="1. Системный анализ информационных процессов" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-11855" width="439" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PRMDEGB_TDhuan0nxpVB-12" value="2. Разработка модели оценки критерия принятия решений и правил" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410.5" y="-11834" width="439" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PRMDEGB_TDhuan0nxpVB-13" value="Выбор метода моделирования:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="411" y="-11810" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PRMDEGB_TDhuan0nxpVB-14" value="Эмпирическое моделирование. Основу моделирования составляют результаты анализа данных, полученных в результате измерений при наблюдениях и эксперименте.&lt;br&gt;Основа: регрессионный анализ теории статистических решений" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-11780" width="567" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
