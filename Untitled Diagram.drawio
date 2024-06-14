@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T06:33:59.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="r-vam8yaWdGsEQZcYow2" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-14T07:32:29.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="a_3PeuRI3F2VfxuqG4y1" version="24.5.4" type="github">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="1670" dy="14299" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1268" dy="14473" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3027,21 +3027,21 @@
         </mxCell>
         <mxCell id="xyriOUZlPAT2Bq5Ak7LP-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="626" y="-13103" as="sourcePoint" />
-            <mxPoint x="783" y="-13103" as="targetPoint" />
+            <mxPoint x="626" y="-13176" as="sourcePoint" />
+            <mxPoint x="783" y="-13176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xyriOUZlPAT2Bq5Ak7LP-8" value="Частота дискретизации звука, Гц" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="628" y="-13134" width="146" height="30" as="geometry" />
+          <mxGeometry x="628" y="-13207" width="146" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xyriOUZlPAT2Bq5Ak7LP-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="627" y="-13193" as="sourcePoint" />
-            <mxPoint x="784" y="-13193" as="targetPoint" />
+            <mxPoint x="627" y="-13223" as="sourcePoint" />
+            <mxPoint x="784" y="-13223" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xyriOUZlPAT2Bq5Ak7LP-10" value="Глубина кодирования звука, Бит" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="629" y="-13224" width="146" height="30" as="geometry" />
+          <mxGeometry x="629" y="-13254" width="146" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xyriOUZlPAT2Bq5Ak7LP-11" value="Модель процесса прогнозирования объема звуковой информации для формирования датасета" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="794" y="-13535" width="190" height="89" as="geometry" />
@@ -3052,7 +3052,7 @@
             <mxPoint x="1124" y="-13491" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xyriOUZlPAT2Bq5Ak7LP-5" target="xyriOUZlPAT2Bq5Ak7LP-11">
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xyriOUZlPAT2Bq5Ak7LP-18" target="xyriOUZlPAT2Bq5Ak7LP-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="688" y="-13448" as="sourcePoint" />
             <mxPoint x="738" y="-13498" as="targetPoint" />
@@ -3069,6 +3069,66 @@
               <mxPoint x="738" y="-13468" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-16" value="Обучающие выборки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1023" y="-13527" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="627.5" y="-13128" as="sourcePoint" />
+            <mxPoint x="784.5" y="-13128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-18" value="Объем звуковой информации, Байт" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="629.5" y="-13159" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-19" value="Процесс прогнозирования объема звуковой информации для формирования датасета" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="-13938" width="210" height="364" as="geometry" />
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="617" y="-13756.29" as="sourcePoint" />
+            <mxPoint x="753" y="-13756.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-21" value="Обучающие выборки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="-13792" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="xyriOUZlPAT2Bq5Ak7LP-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="-13847" as="sourcePoint" />
+            <mxPoint x="287" y="-13849" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-23" value="АЧХ квадрокоптера, Гц" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252" y="-13878" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="-13748" as="sourcePoint" />
+            <mxPoint x="406" y="-13748" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-25" value="Частота дискретизации звука, Гц" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251" y="-13779" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="-13795" as="sourcePoint" />
+            <mxPoint x="407" y="-13795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-27" value="Глубина кодирования звука, Бит" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252" y="-13826" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.5" y="-13700" as="sourcePoint" />
+            <mxPoint x="407.5" y="-13700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyriOUZlPAT2Bq5Ak7LP-34" value="Объем звуковой информации, Байт" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="-13731" width="146" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
