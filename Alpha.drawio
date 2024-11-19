@@ -4,61 +4,61 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="410" width="351" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-2" value="Клиентские приложения" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-2" value="Клиентские приложения" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="316.5" y="410" width="198" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-3" value="Веб-агент" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-3" value="Веб-агент" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="256" y="457" width="123" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-5" value="Веб-клиент DirectumRX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-5" value="Веб-клиент DirectumRX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="435" y="457" width="143" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-3" target="DbNHtFCvX-FUhnpGTAhA-5">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-3" target="DbNHtFCvX-FUhnpGTAhA-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="389" y="502" as="sourcePoint" />
             <mxPoint x="439" y="452" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-7" value="Виртуальный IP" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-7" value="Виртуальный IP" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="355.5" y="564" width="120" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-7" target="DbNHtFCvX-FUhnpGTAhA-1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-7" target="DbNHtFCvX-FUhnpGTAhA-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="388" y="571" as="sourcePoint" />
             <mxPoint x="438" y="521" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="258" y="628" width="315" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-10" value="Реверс-прокси 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-10" value="Реверс-прокси 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="270" y="639" width="123" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-11" value="Реверс-прокси 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-11" value="Реверс-прокси 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="432" y="639" width="123" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="415.26" y="628" as="sourcePoint" />
             <mxPoint x="415.26" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-13" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-13" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-38" y="761" width="404" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-14" value="DirectumRX1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-14" value="DirectumRX1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="134" y="761" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-15" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-15" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="489" y="759" width="404" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-16" value="DirectumRX2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-16" value="DirectumRX2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="661" y="759" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-9" target="DbNHtFCvX-FUhnpGTAhA-20">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-9" target="DbNHtFCvX-FUhnpGTAhA-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="343" y="739" as="sourcePoint" />
             <mxPoint x="393" y="689" as="targetPoint" />
@@ -68,7 +68,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="DbNHtFCvX-FUhnpGTAhA-21">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="DbNHtFCvX-FUhnpGTAhA-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="416" y="673" as="sourcePoint" />
             <mxPoint x="612" y="698" as="targetPoint" />
@@ -78,34 +78,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-20" value="Веб-сервер 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-20" value="Веб-сервер 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="212" y="807" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-21" value="Веб-сервер 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-21" value="Веб-сервер 2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="523" y="807" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-22" value="Сервисы&amp;nbsp;&lt;div&gt;DirectumRX 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-22" value="Сервисы&amp;nbsp;&lt;div&gt;DirectumRX 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="807" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-23" value="Сервисы&amp;nbsp;&lt;div&gt;DirectumRX 2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-23" value="Сервисы&amp;nbsp;&lt;div&gt;DirectumRX 2&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="807" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-22" target="DbNHtFCvX-FUhnpGTAhA-20">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-22" target="DbNHtFCvX-FUhnpGTAhA-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="148" y="886" as="sourcePoint" />
             <mxPoint x="198" y="836" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-21" target="DbNHtFCvX-FUhnpGTAhA-23">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-21" target="DbNHtFCvX-FUhnpGTAhA-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="684" y="864" as="sourcePoint" />
             <mxPoint x="734" y="814" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-26" value="Виртуальный IP" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-26" value="Виртуальный IP" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="363" y="984" width="120" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-13" target="DbNHtFCvX-FUhnpGTAhA-26">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-13" target="DbNHtFCvX-FUhnpGTAhA-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="279" y="994" as="sourcePoint" />
             <mxPoint x="329" y="944" as="targetPoint" />
@@ -115,7 +115,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-26" target="DbNHtFCvX-FUhnpGTAhA-15">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-26" target="DbNHtFCvX-FUhnpGTAhA-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="514" y="990" as="sourcePoint" />
             <mxPoint x="564" y="940" as="targetPoint" />
@@ -125,52 +125,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="279.38" y="1041" width="287.25" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-30" value="RabbitMQ, MongoDB, etcd, haproxy, keepalived&lt;br&gt;(RM1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-30" value="RabbitMQ, MongoDB, etcd, haproxy, keepalived&lt;br&gt;(RM1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="290.63" y="1050.25" width="123" height="76.5" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-32" value="RabbitMQ, MongoDB, etcd, haproxy, keepalived&lt;br&gt;(RM2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-32" value="RabbitMQ, MongoDB, etcd, haproxy, keepalived&lt;br&gt;(RM2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="432.63" y="1050.25" width="123" height="76.5" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-26" target="DbNHtFCvX-FUhnpGTAhA-29">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-26" target="DbNHtFCvX-FUhnpGTAhA-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="547" y="1090" as="sourcePoint" />
             <mxPoint x="597" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-35" value="Кластер PortgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-35" value="Кластер PortgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="326" y="1177" width="194" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-35" target="DbNHtFCvX-FUhnpGTAhA-29">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-35" target="DbNHtFCvX-FUhnpGTAhA-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="426" y="1211" as="sourcePoint" />
             <mxPoint x="476" y="1166" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-38" value="Сервер системы резервного копирования" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-38" value="Сервер системы резервного копирования" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-57" y="1093" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-39" value="Сервер хранилища данных 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-39" value="Сервер хранилища данных 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="768" y="954" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-40" value="Сервер хранилища данных 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-40" value="Сервер хранилища данных 2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="768" y="1057" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-41" value="Сервис мобильного приложения" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-41" value="Сервис мобильного приложения" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="295" y="490" width="237" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-42" value="Полнотекстовой поиск Elasticsearch" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-42" value="Полнотекстовой поиск Elasticsearch" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="38" y="479" width="152" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-43" value="Мониторинг DirectumRX" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-43" value="Мониторинг DirectumRX" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="38" y="568" width="152" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-45" value="Ario" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-45" value="Ario" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="38" y="653" width="152" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-48" value="Тестовый сервер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-48" value="Тестовый сервер" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-57" y="1184" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
