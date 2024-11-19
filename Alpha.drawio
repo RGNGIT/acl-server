@@ -128,10 +128,10 @@
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="279.38" y="1041" width="287.25" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-30" value="RabbitMQ, MongoDB, etcd, haproxy, keepalived&lt;br&gt;(RM1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-30" value="RabbitMQ, etcd, haproxy, keepalived&lt;br&gt;(RM1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
           <mxGeometry x="290.63" y="1050.25" width="123" height="76.5" as="geometry" />
         </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-32" value="RabbitMQ, MongoDB, etcd, haproxy, keepalived&lt;br&gt;(RM2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-32" value="RabbitMQ, etcd, haproxy, keepalived&lt;br&gt;(RM2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="432.63" y="1050.25" width="123" height="76.5" as="geometry" />
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-26" target="DbNHtFCvX-FUhnpGTAhA-29" edge="1">
