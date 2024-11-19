@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
   <diagram name="Страница — 1" id="taSbxQqE9CDGUTEGkazy">
-    <mxGraphModel dx="2853" dy="1143" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2213" dy="783" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,13 +126,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="279.38" y="1041" width="287.25" height="95" as="geometry" />
+          <mxGeometry x="208.69" y="1046" width="428.62" height="95" as="geometry" />
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-30" value="RabbitMQ, etcd, haproxy, keepalived&lt;br&gt;(RM1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="290.63" y="1050.25" width="123" height="76.5" as="geometry" />
+          <mxGeometry x="219.94" y="1055.25" width="123" height="76.5" as="geometry" />
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-32" value="RabbitMQ, etcd, haproxy, keepalived&lt;br&gt;(RM2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="432.63" y="1050.25" width="123" height="76.5" as="geometry" />
+          <mxGeometry x="361.94" y="1055.25" width="123" height="76.5" as="geometry" />
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DbNHtFCvX-FUhnpGTAhA-26" target="DbNHtFCvX-FUhnpGTAhA-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -148,9 +148,6 @@
             <mxPoint x="426" y="1211" as="sourcePoint" />
             <mxPoint x="476" y="1166" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="DbNHtFCvX-FUhnpGTAhA-38" value="Сервер системы резервного копирования" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-57" y="1093" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-39" value="Сервер хранилища данных 1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="768" y="954" width="120" height="60" as="geometry" />
@@ -171,7 +168,10 @@
           <mxGeometry x="38" y="653" width="152" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-48" value="Тестовый сервер" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-57" y="1184" width="120" height="60" as="geometry" />
+          <mxGeometry x="-59" y="1141" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ybwXyyKt67YIkfou766u-1" value="RabbitMQ, etcd, haproxy, keepalived&lt;br&gt;(RM1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="500.31" y="1055.25" width="123" height="76.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
