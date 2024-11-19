@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
   <diagram name="Страница — 1" id="taSbxQqE9CDGUTEGkazy">
-    <mxGraphModel dx="2224" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2515" dy="953" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,6 +101,47 @@
             <mxPoint x="684" y="864" as="sourcePoint" />
             <mxPoint x="734" y="814" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-26" value="Виртуальный IP" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="984" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-13" target="DbNHtFCvX-FUhnpGTAhA-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279" y="994" as="sourcePoint" />
+            <mxPoint x="329" y="944" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="164" y="953" />
+              <mxPoint x="423" y="954" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-26" target="DbNHtFCvX-FUhnpGTAhA-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="514" y="990" as="sourcePoint" />
+            <mxPoint x="564" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="423" y="954" />
+              <mxPoint x="691" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279.38" y="1041" width="287.25" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-30" value="RabbitMQ, MongoDB, etcd, haproxy, keepalived&lt;br&gt;(RM1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="290.63" y="1050.25" width="123" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-32" value="RabbitMQ, MongoDB, etcd, haproxy, keepalived&lt;br&gt;(RM2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="432.63" y="1050.25" width="123" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-26" target="DbNHtFCvX-FUhnpGTAhA-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="547" y="1090" as="sourcePoint" />
+            <mxPoint x="597" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1214" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
