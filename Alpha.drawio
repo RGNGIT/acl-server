@@ -149,6 +149,15 @@
             <mxPoint x="476" y="1166" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-38" value="Сервер системы резервного копирования" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="1139" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-39" value="Сервер хранилища данных 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="768" y="954" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-40" value="Сервер хранилища данных 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="768" y="1057" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
