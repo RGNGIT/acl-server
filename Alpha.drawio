@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
   <diagram name="Страница — 1" id="taSbxQqE9CDGUTEGkazy">
-    <mxGraphModel dx="965" dy="544" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1390" dy="318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,59 @@
             <mxPoint x="388" y="571" as="sourcePoint" />
             <mxPoint x="438" y="521" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="258" y="628" width="315" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-10" value="Реверс-прокси 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="270" y="639" width="123" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-11" value="Реверс-прокси 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="432" y="639" width="123" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415.26" y="628" as="sourcePoint" />
+            <mxPoint x="415.26" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-13" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-38" y="761" width="404" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-14" value="DirectumRX1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="134" y="761" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-15" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="759" width="404" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-16" value="DirectumRX2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="661" y="759" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-9" target="DbNHtFCvX-FUhnpGTAhA-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="343" y="739" as="sourcePoint" />
+            <mxPoint x="393" y="689" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="416" y="708" />
+              <mxPoint x="272" y="708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="DbNHtFCvX-FUhnpGTAhA-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="416" y="673" as="sourcePoint" />
+            <mxPoint x="612" y="698" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="416" y="708" />
+              <mxPoint x="582" y="708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-20" value="Веб-сервер 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="807" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-21" value="Веб-сервер 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="523" y="807" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
