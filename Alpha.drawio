@@ -5,7 +5,31 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="410" width="270" height="70" as="geometry" />
+          <mxGeometry x="240" y="410" width="351" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-2" value="Клиентские приложения" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="316.5" y="410" width="198" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-3" value="Веб-агент" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="256" y="457" width="123" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-5" value="Веб-клиент DirectumRX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="435" y="457" width="143" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-3" target="DbNHtFCvX-FUhnpGTAhA-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389" y="502" as="sourcePoint" />
+            <mxPoint x="439" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-7" value="Виртуальный IP" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="355.5" y="564" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DbNHtFCvX-FUhnpGTAhA-7" target="DbNHtFCvX-FUhnpGTAhA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388" y="571" as="sourcePoint" />
+            <mxPoint x="438" y="521" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
