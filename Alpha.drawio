@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
   <diagram name="Страница — 1" id="taSbxQqE9CDGUTEGkazy">
-    <mxGraphModel dx="2224" dy="788" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2853" dy="1143" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,7 +150,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-38" value="Сервер системы резервного копирования" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-58" y="1139" width="120" height="60" as="geometry" />
+          <mxGeometry x="-57" y="1093" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-39" value="Сервер хранилища данных 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="768" y="954" width="120" height="60" as="geometry" />
@@ -160,6 +160,18 @@
         </mxCell>
         <mxCell id="DbNHtFCvX-FUhnpGTAhA-41" value="Сервис мобильного приложения" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="295" y="490" width="237" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-42" value="Полнотекстовой поиск Elasticsearch" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="38" y="479" width="152" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-43" value="Мониторинг DirectumRX" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="38" y="568" width="152" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-45" value="Ario" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="38" y="653" width="152" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DbNHtFCvX-FUhnpGTAhA-48" value="Тестовый сервер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="1184" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
