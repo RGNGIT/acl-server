@@ -3724,6 +3724,9 @@
         <mxCell id="i9xhakcpiFKjMO8G5AVO-6" value="&lt;div align=&quot;left&quot;&gt;* сообщение&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1344" y="-15320" width="112" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="-15764" width="144" height="171" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
