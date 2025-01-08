@@ -3718,6 +3718,12 @@
         <mxCell id="i9xhakcpiFKjMO8G5AVO-4" value="&lt;div align=&quot;left&quot;&gt;* статус&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1344" y="-15362" width="112" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-5" value="&lt;div align=&quot;left&quot;&gt;* дата&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1344" y="-15341" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-6" value="&lt;div align=&quot;left&quot;&gt;* сообщение&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1344" y="-15320" width="112" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
