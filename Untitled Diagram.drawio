@@ -3829,7 +3829,7 @@
           <mxGeometry x="-736" y="-15085" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1120.5" y="-15108" width="164" height="181" as="geometry" />
+          <mxGeometry x="-1120.5" y="-15108" width="164" height="127" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-54" value="Данные об обработке" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1109.75" y="-15108" width="142.5" height="17" as="geometry" />
@@ -3843,7 +3843,7 @@
         <mxCell id="i9xhakcpiFKjMO8G5AVO-57" value="Аудиофайл" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1114" y="-15067" width="131" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="i9xhakcpiFKjMO8G5AVO-58" value="ВК" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-58" value="ВК1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-983" y="-15067" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-59" value="Дата и время обработки" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -3853,7 +3853,7 @@
           <mxGeometry x="-1115.5" y="-15027" width="146.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-61" value="Примечание" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1115.5" y="-15009" width="146.5" height="20" as="geometry" />
+          <mxGeometry x="-1115.5" y="-15007" width="146.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
