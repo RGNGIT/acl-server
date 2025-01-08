@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.4">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="5057" dy="18690" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2588" dy="17340" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3794,6 +3794,18 @@
             <mxPoint x="669" y="-15833" as="sourcePoint" />
             <mxPoint x="719" y="-15883" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="-15173" width="164" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-42" value="Аудиофайл" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-948" y="-15173" width="60" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-43" value="Код" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="-15152" width="131" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-44" value="Наименование" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="-15132" width="131" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
