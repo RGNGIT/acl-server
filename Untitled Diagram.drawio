@@ -4042,16 +4042,16 @@
           <mxGeometry x="1734" y="-16276" width="26" height="100" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-127" value="1 Главная" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1734" y="-16276" width="75" height="26" as="geometry" />
+          <mxGeometry x="1734" y="-16269" width="75" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-128" value="2 Аудио. Результирующая функция Фурье" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1735.25" y="-16257" width="250" height="26" as="geometry" />
+          <mxGeometry x="1735.25" y="-16250" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-129" value="3 Тест распознавания" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1735.25" y="-16237" width="143" height="26" as="geometry" />
+          <mxGeometry x="1735.25" y="-16230" width="143" height="26" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-130" value="4 Логгер" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1735.25" y="-16217" width="65" height="26" as="geometry" />
+          <mxGeometry x="1735.25" y="-16210" width="65" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
