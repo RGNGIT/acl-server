@@ -3796,7 +3796,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1000" y="-15173" width="164" height="210" as="geometry" />
+          <mxGeometry x="-1000" y="-15173" width="164" height="181" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-42" value="Аудиофайл" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-948" y="-15173" width="60" height="17" as="geometry" />
@@ -3806,6 +3806,24 @@
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-44" value="Наименование" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-995" y="-15132" width="131" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-45" value="Путь" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="-15113" width="131" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-46" value="Дата записи" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="-15094" width="131" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-47" value="Частота дискретизации" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="-15075" width="136" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-48" value="Длительность" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="-15056" width="136" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-50" value="Формат" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="-15037" width="136" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-51" value="Размер" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-995" y="-15018" width="136" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
