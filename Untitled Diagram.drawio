@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.4">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="1412" dy="15353" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1388" dy="15340" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3294,6 +3294,9 @@
         <mxCell id="sQujQLyjUapjsDQl8XMV-1" value="Main.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="886" y="-14646" width="179" height="69" as="geometry" />
         </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sQujQLyjUapjsDQl8XMV-2" target="sQujQLyjUapjsDQl8XMV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sQujQLyjUapjsDQl8XMV-2" value="ResultHandler.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="643" y="-14499" width="179" height="69" as="geometry" />
         </mxCell>
@@ -3326,6 +3329,18 @@
               <mxPoint x="1218" y="-14537" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-11" value="FFT.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1128.5" y="-14384" width="179" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sQujQLyjUapjsDQl8XMV-9" target="sQujQLyjUapjsDQl8XMV-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1215" y="-14366" as="sourcePoint" />
+            <mxPoint x="1265" y="-14416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-13" value="DataInjector.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="643" y="-14384" width="179" height="69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
