@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-28T07:11:05.467Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="fL3Bknk-46z8Pt931lgv" version="24.6.3" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.4">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="1466" dy="14604" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1412" dy="15353" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3282,14 +3282,50 @@
             <mxPoint x="1583.5" y="-13303" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZO2wy7oraYmr8smVY-uD-1" value="База спектров звуковых сигналов" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZO2wy7oraYmr8smVY-uD-1" value="База спектров звуковых сигналов" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1841" y="-13376" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZO2wy7oraYmr8smVY-uD-2" value="База звуковых данных" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZO2wy7oraYmr8smVY-uD-2" value="База звуковых данных" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1842" y="-13615" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZO2wy7oraYmr8smVY-uD-3" value="База обучающих выборок" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZO2wy7oraYmr8smVY-uD-3" value="База обучающих выборок" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1637" y="-13262" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-1" value="Main.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="886" y="-14646" width="179" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-2" value="ResultHandler.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="643" y="-14499" width="179" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-3" value="NeuralHandler.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="886" y="-14499" width="179" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sQujQLyjUapjsDQl8XMV-1" target="sQujQLyjUapjsDQl8XMV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="737" y="-14378" as="sourcePoint" />
+            <mxPoint x="787" y="-14428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="sQujQLyjUapjsDQl8XMV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="975" y="-14538" as="sourcePoint" />
+            <mxPoint x="724" y="-14549" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="732" y="-14538" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-9" value="AudioProcessor.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1128.5" y="-14499" width="179" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="sQujQLyjUapjsDQl8XMV-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="sQujQLyjUapjsDQl8XMV-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="975" y="-14538" as="sourcePoint" />
+            <mxPoint x="1047" y="-14543" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1218" y="-14537" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
