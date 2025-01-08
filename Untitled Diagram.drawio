@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.4">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="3030" dy="17582" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2291" dy="17178" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3829,31 +3829,55 @@
           <mxGeometry x="-736" y="-15085" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1120.5" y="-15108" width="164" height="127" as="geometry" />
+          <mxGeometry x="-1341" y="-15081" width="164" height="127" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-54" value="Данные об обработке" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1109.75" y="-15108" width="142.5" height="17" as="geometry" />
+          <mxGeometry x="-1330.25" y="-15081" width="142.5" height="17" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-55" value="Код" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1115.5" y="-15087" width="131" height="20" as="geometry" />
+          <mxGeometry x="-1336" y="-15060" width="131" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-56" value="ПК" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-984.5" y="-15087" width="20" height="20" as="geometry" />
+          <mxGeometry x="-1205" y="-15060" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-57" value="Аудиофайл" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1114" y="-15067" width="131" height="20" as="geometry" />
+          <mxGeometry x="-1334.5" y="-15040" width="131" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-58" value="ВК1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-983" y="-15067" width="20" height="20" as="geometry" />
+          <mxGeometry x="-1203.5" y="-15040" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-59" value="Дата и время обработки" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1115.5" y="-15046" width="146.5" height="20" as="geometry" />
+          <mxGeometry x="-1336" y="-15019" width="146.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-60" value="Путь к файлу" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1115.5" y="-15027" width="146.5" height="20" as="geometry" />
+          <mxGeometry x="-1336" y="-15000" width="146.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i9xhakcpiFKjMO8G5AVO-61" value="Примечание" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1115.5" y="-15007" width="146.5" height="20" as="geometry" />
+          <mxGeometry x="-1336" y="-14980" width="146.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1124" y="-15085" width="164" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-63" value="Аудиофайл Данные об обработке" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1113.25" y="-15081" width="142.5" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-64" value="Код" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1119.75" y="-15054" width="131" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-65" value="ПК" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-983" y="-15054" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-66" value="Аудиофайл" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1119.75" y="-15033" width="131" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-67" value="ВК1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-986.25" y="-15034" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-68" value="Данные об обработке" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1119.75" y="-15013" width="146.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i9xhakcpiFKjMO8G5AVO-71" value="ВК2" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-986.25" y="-15013" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
