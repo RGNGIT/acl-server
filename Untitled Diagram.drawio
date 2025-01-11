@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.5">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="3590" dy="17020" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4358" dy="17453" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4366,16 +4366,16 @@
           <mxGeometry x="-2750" y="-14792.5" width="117" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rrvjRLUbxeHYiNecR1kg-46" value="Просмотр данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2843" y="-14722" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2851" y="-14722" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrvjRLUbxeHYiNecR1kg-47" value="Добавление данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2843" y="-14635" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2851" y="-14635" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrvjRLUbxeHYiNecR1kg-48" value="Редактирование данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2843" y="-14548" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2851" y="-14548" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrvjRLUbxeHYiNecR1kg-49" value="Удаление данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2843" y="-14461" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2851" y="-14461" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrvjRLUbxeHYiNecR1kg-50" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rrvjRLUbxeHYiNecR1kg-49" target="rrvjRLUbxeHYiNecR1kg-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -4392,16 +4392,16 @@
             <mxPoint x="-2847" y="-14509" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rrvjRLUbxeHYiNecR1kg-52" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="rrvjRLUbxeHYiNecR1kg-52" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rrvjRLUbxeHYiNecR1kg-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-2908" y="-14600" as="sourcePoint" />
+            <mxPoint x="-2908" y="-14605" as="sourcePoint" />
             <mxPoint x="-2843" y="-14600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rrvjRLUbxeHYiNecR1kg-53" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="rrvjRLUbxeHYiNecR1kg-53" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rrvjRLUbxeHYiNecR1kg-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2908" y="-14692.08" as="sourcePoint" />
-            <mxPoint x="-2843" y="-14692.08" as="targetPoint" />
+            <mxPoint x="-2850" y="-14692" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rrvjRLUbxeHYiNecR1kg-54" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rrvjRLUbxeHYiNecR1kg-46" target="rrvjRLUbxeHYiNecR1kg-49">
