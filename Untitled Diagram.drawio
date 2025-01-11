@@ -4447,6 +4447,27 @@
         <mxCell id="rrvjRLUbxeHYiNecR1kg-62" value="4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2929" y="-14458" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="rrvjRLUbxeHYiNecR1kg-64" value="Вывод отчета" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2962" y="-14364" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rrvjRLUbxeHYiNecR1kg-65" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rrvjRLUbxeHYiNecR1kg-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3029" y="-14334" as="sourcePoint" />
+            <mxPoint x="-2970" y="-14326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrvjRLUbxeHYiNecR1kg-66" value="4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3051" y="-14359" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rrvjRLUbxeHYiNecR1kg-67" value="А" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-2792" y="-14355" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="rrvjRLUbxeHYiNecR1kg-68" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rrvjRLUbxeHYiNecR1kg-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2842" y="-14334" as="sourcePoint" />
+            <mxPoint x="-2729" y="-14296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
