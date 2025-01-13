@@ -4649,19 +4649,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Vi6UxhJrstauFa6mkBCO-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1357" y="-15912" width="711" height="91" as="geometry" />
+          <mxGeometry x="-1357" y="-15928.5" width="711" height="91" as="geometry" />
         </mxCell>
         <mxCell id="Vi6UxhJrstauFa6mkBCO-2" value="Каталог" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1031.5" y="-15914.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1031.5" y="-15931" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vi6UxhJrstauFa6mkBCO-3" value="&lt;div align=&quot;left&quot;&gt;#* код&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1348" y="-15898" width="138" height="30" as="geometry" />
+          <mxGeometry x="-1348" y="-15914.5" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vi6UxhJrstauFa6mkBCO-4" value="&lt;div align=&quot;left&quot;&gt;* наименование&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1348" y="-15880" width="138" height="30" as="geometry" />
+          <mxGeometry x="-1348" y="-15896.5" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Vi6UxhJrstauFa6mkBCO-5" value="&lt;div align=&quot;left&quot;&gt;* расположение&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1348" y="-15859.5" width="138" height="30" as="geometry" />
+          <mxGeometry x="-1348" y="-15876" width="138" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
