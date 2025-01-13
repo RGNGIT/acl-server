@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.5">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="4352" dy="17430" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3424" dy="16923" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4662,6 +4662,18 @@
         </mxCell>
         <mxCell id="Vi6UxhJrstauFa6mkBCO-5" value="&lt;div align=&quot;left&quot;&gt;* расположение&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1348" y="-15876" width="138" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vi6UxhJrstauFa6mkBCO-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.093;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i9xhakcpiFKjMO8G5AVO-11" target="Vi6UxhJrstauFa6mkBCO-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1299" y="-15750" as="sourcePoint" />
+            <mxPoint x="-1249" y="-15800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vi6UxhJrstauFa6mkBCO-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1043.66" y="-15760" as="sourcePoint" />
+            <mxPoint x="-1044" y="-15837" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
