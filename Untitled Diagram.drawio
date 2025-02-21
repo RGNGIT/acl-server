@@ -4928,16 +4928,22 @@
           <mxGeometry x="-989.5" y="-17884" width="26.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m09AKTtp0YafFSV9xYME-24" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-658" y="-17868" width="26.5" height="30" as="geometry" />
+          <mxGeometry x="-608.5" y="-17896" width="26.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m09AKTtp0YafFSV9xYME-25" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-658" y="-17735" width="26.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="m09AKTtp0YafFSV9xYME-26" value="4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-658" y="-17604" width="26.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="m09AKTtp0YafFSV9xYME-27" value="5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="m09AKTtp0YafFSV9xYME-27" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-283.5" y="-17604" width="26.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m09AKTtp0YafFSV9xYME-28" value="1. &lt;b&gt;React&lt;/b&gt; безопасен благодаря автоматическому экранированию данных, однонаправленному потоку данных, Virtual DOM, совместимости с CSP и защите от XSS и CSRF." style="text;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-1417.6599999999999" y="-17442" width="1529.33" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="m09AKTtp0YafFSV9xYME-29" value="&lt;li data-start=&quot;0&quot; data-end=&quot;132&quot;&gt;&lt;strong data-start=&quot;3&quot; data-end=&quot;11&quot; data-is-only-node=&quot;&quot;&gt;CORS&lt;/strong&gt; – ограничивает доступ к API только доверенным источникам, предотвращая атаки типа Cross-Origin Request Forgery (CSRF).&lt;/li&gt;&lt;li data-start=&quot;133&quot; data-end=&quot;282&quot;&gt;&lt;strong data-start=&quot;136&quot; data-end=&quot;162&quot; data-is-only-node=&quot;&quot;&gt;Авторизация Middleware&lt;/strong&gt; – проверяет подлинность и права пользователя, блокируя несанкционированный доступ на ранних этапах обработки запроса.&lt;/li&gt;&lt;li data-start=&quot;283&quot; data-end=&quot;421&quot; data-is-last-node=&quot;&quot;&gt;&lt;strong data-start=&quot;286&quot; data-end=&quot;298&quot; data-is-only-node=&quot;&quot;&gt;Эндпоинт&lt;/strong&gt; – обрабатывает только проверенные и авторизованные запросы, исключая возможность несанкционированного выполнения операций.&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1417.66" y="-17350" width="1507.66" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="m09AKTtp0YafFSV9xYME-30" value="2.&amp;nbsp;&lt;strong data-is-only-node=&quot;&quot; data-end=&quot;10&quot; data-start=&quot;0&quot;&gt;NestJS&lt;/strong&gt; – высокоуровневый фреймворк для Node.js, обеспечивающий безопасную модульную архитектуру благодаря встроенной поддержке CORS, middleware для авторизации и защите конечных точек от несанкционированного доступа." style="text;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-1417.6599999999999" y="-17403" width="1529.33" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="m09AKTtp0YafFSV9xYME-32" value="3. &lt;b&gt;React&lt;/b&gt; безопасен благодаря автоматическому экранированию данных, однонаправленному потоку данных, Virtual DOM, совместимости с CSP и защите от XSS и CSRF." style="text;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-1417.6599999999999" y="-17274" width="1529.33" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
