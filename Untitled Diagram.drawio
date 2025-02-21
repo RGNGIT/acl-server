@@ -4897,6 +4897,9 @@
             <mxPoint x="-516" y="-17680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="m09AKTtp0YafFSV9xYME-15" value="Бэкенд (NestJS)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-844" y="-17898" width="113" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
