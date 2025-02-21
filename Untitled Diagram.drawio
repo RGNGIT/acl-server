@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="m09AKTtp0YafFSV9xYME-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-465" y="-17687" width="258.5" height="185" as="geometry" />
+        </mxCell>
         <mxCell id="m09AKTtp0YafFSV9xYME-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-840.5" y="-17896" width="258.5" height="394" as="geometry" />
         </mxCell>
@@ -4899,6 +4902,18 @@
         </mxCell>
         <mxCell id="m09AKTtp0YafFSV9xYME-15" value="Бэкенд (NestJS)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-844" y="-17898" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m09AKTtp0YafFSV9xYME-18" value="DirectumRX" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-459" y="-17687" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m09AKTtp0YafFSV9xYME-19" value="Сервис интеграции" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="-17604" width="153" height="70.5" as="geometry" />
+        </mxCell>
+        <mxCell id="m09AKTtp0YafFSV9xYME-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m09AKTtp0YafFSV9xYME-12" target="m09AKTtp0YafFSV9xYME-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-581" y="-17506" as="sourcePoint" />
+            <mxPoint x="-531" y="-17556" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
