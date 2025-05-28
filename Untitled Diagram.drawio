@@ -5056,20 +5056,14 @@
         <mxCell id="x9eCiTp9rfCXduFXw2vY-33" value="ПК" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1143" y="-14063" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x9eCiTp9rfCXduFXw2vY-34" value="Аудиофайл" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1272.5" y="-14043" width="131" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="x9eCiTp9rfCXduFXw2vY-35" value="ВК1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1141.5" y="-14043" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="x9eCiTp9rfCXduFXw2vY-36" value="Дата и время обработки" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1274" y="-14022" width="146.5" height="20" as="geometry" />
+          <mxGeometry x="-1274" y="-14043" width="146.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="x9eCiTp9rfCXduFXw2vY-37" value="Путь к файлу" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1274" y="-14003" width="146.5" height="20" as="geometry" />
+          <mxGeometry x="-1274" y="-14023" width="146.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="x9eCiTp9rfCXduFXw2vY-38" value="Примечание" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1274" y="-13983" width="146.5" height="20" as="geometry" />
+          <mxGeometry x="-1274" y="-14005" width="146.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="x9eCiTp9rfCXduFXw2vY-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1048" y="-14070" width="164" height="99" as="geometry" />
@@ -5095,16 +5089,24 @@
         <mxCell id="x9eCiTp9rfCXduFXw2vY-46" value="ВК2" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-910.25" y="-13998" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x9eCiTp9rfCXduFXw2vY-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x9eCiTp9rfCXduFXw2vY-19" target="x9eCiTp9rfCXduFXw2vY-39">
+        <mxCell id="x9eCiTp9rfCXduFXw2vY-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.002;exitY=0.171;exitDx=0;exitDy=0;entryX=0.996;entryY=0.614;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="x9eCiTp9rfCXduFXw2vY-19" target="x9eCiTp9rfCXduFXw2vY-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-878" y="-13974" as="sourcePoint" />
             <mxPoint x="-828" y="-14024" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-845" y="-14080" />
+              <mxPoint x="-845" y="-14009" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x9eCiTp9rfCXduFXw2vY-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x9eCiTp9rfCXduFXw2vY-30" target="x9eCiTp9rfCXduFXw2vY-39">
+        <mxCell id="x9eCiTp9rfCXduFXw2vY-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.005;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x9eCiTp9rfCXduFXw2vY-30" target="x9eCiTp9rfCXduFXw2vY-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1061" y="-13891" as="sourcePoint" />
             <mxPoint x="-1011" y="-13941" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1077" y="-14052" />
+              <mxPoint x="-1077" y="-13989" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="x9eCiTp9rfCXduFXw2vY-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
