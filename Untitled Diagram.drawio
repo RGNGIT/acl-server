@@ -5142,21 +5142,22 @@
         <mxCell id="x9eCiTp9rfCXduFXw2vY-59" value="Сообщение" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1043.75" y="-13769" width="146.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="x9eCiTp9rfCXduFXw2vY-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x9eCiTp9rfCXduFXw2vY-30" target="x9eCiTp9rfCXduFXw2vY-49">
+        <mxCell id="x9eCiTp9rfCXduFXw2vY-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x9eCiTp9rfCXduFXw2vY-30" target="x9eCiTp9rfCXduFXw2vY-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1180" y="-13817" as="sourcePoint" />
             <mxPoint x="-1130" y="-13867" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1197" y="-13823" />
+              <mxPoint x="-1092" y="-14052" />
+              <mxPoint x="-1091" y="-13823" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="x9eCiTp9rfCXduFXw2vY-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x9eCiTp9rfCXduFXw2vY-19" target="x9eCiTp9rfCXduFXw2vY-49">
+        <mxCell id="x9eCiTp9rfCXduFXw2vY-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.002;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x9eCiTp9rfCXduFXw2vY-19" target="x9eCiTp9rfCXduFXw2vY-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-843" y="-13788" as="sourcePoint" />
             <mxPoint x="-793" y="-13838" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-728" y="-13823" />
+              <mxPoint x="-728" y="-13838" />
             </Array>
           </mxGeometry>
         </mxCell>
