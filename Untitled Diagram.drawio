@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.6">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="6662" dy="19747" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4945" dy="18776" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5484,17 +5484,17 @@
         <mxCell id="pCs2t6UN4uGy4r5AD0Ov-28" value="База обучающих выборок" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2983.25" y="-13400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pCs2t6UN4uGy4r5AD0Ov-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pCs2t6UN4uGy4r5AD0Ov-25" target="pCs2t6UN4uGy4r5AD0Ov-27" edge="1">
+        <mxCell id="pCs2t6UN4uGy4r5AD0Ov-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3043" y="-13376" as="sourcePoint" />
-            <mxPoint x="3093" y="-13426" as="targetPoint" />
+            <mxPoint x="2995" y="-13480" as="sourcePoint" />
+            <mxPoint x="2995" y="-13416" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pCs2t6UN4uGy4r5AD0Ov-30" value="Звуковой сигнал" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2721" y="-13615" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pCs2t6UN4uGy4r5AD0Ov-31" value="Датасет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3012.25" y="-13466" width="60" height="30" as="geometry" />
+          <mxGeometry x="3027" y="-13462" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="epJWDLUyKPi0ATCIY5wV-1" value="Вывод данных Датасета" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1572" y="-15616" width="272" height="60" as="geometry" />
@@ -5517,10 +5517,16 @@
             <mxPoint x="1850" y="-15470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sPs4F00SxMjlUa8fgUBD-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="i9xhakcpiFKjMO8G5AVO-172" target="i9xhakcpiFKjMO8G5AVO-175">
+        <mxCell id="sPs4F00SxMjlUa8fgUBD-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" parent="1" source="i9xhakcpiFKjMO8G5AVO-172" target="i9xhakcpiFKjMO8G5AVO-175" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1742" y="-15388" as="sourcePoint" />
             <mxPoint x="1830.5300000000007" y="-15295.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PS3_QvHz8qBqcbnexA8k-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.536;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.591;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pCs2t6UN4uGy4r5AD0Ov-27" target="pCs2t6UN4uGy4r5AD0Ov-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3022" y="-13417" as="sourcePoint" />
+            <mxPoint x="3041" y="-13380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
