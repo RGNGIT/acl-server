@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="4782" dy="18655" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4950" dy="18749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5608,6 +5608,38 @@
         </mxCell>
         <mxCell id="TFQh8b9APoqUZrjUk-f8-1" value="ФХ продуктивной системы Д5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2821.25" y="-12835" width="213.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFQh8b9APoqUZrjUk-f8-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2869" y="-12465" width="303" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="TFQh8b9APoqUZrjUk-f8-3" value="DirectumRX&lt;div&gt;Миграция&lt;/div&gt;&lt;div&gt;(бэкап на установленную дату)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-2789" y="-12405" width="148" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="TFQh8b9APoqUZrjUk-f8-4" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;MSSQL&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2869" y="-12465" width="303" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="TFQh8b9APoqUZrjUk-f8-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2500" y="-12465" width="317" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="TFQh8b9APoqUZrjUk-f8-6" value="DirectumRX&lt;div&gt;Прод (бэкап)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-2413" y="-12396" width="148" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TFQh8b9APoqUZrjUk-f8-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TFQh8b9APoqUZrjUk-f8-3" target="TFQh8b9APoqUZrjUk-f8-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2589" y="-12324" as="sourcePoint" />
+            <mxPoint x="-2539" y="-12374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFQh8b9APoqUZrjUk-f8-8" value="Конвертация (PDI)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TFQh8b9APoqUZrjUk-f8-7">
+          <mxGeometry x="-0.0025" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFQh8b9APoqUZrjUk-f8-12" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;Postgres&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2500.5" y="-12465" width="317.5" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="TFQh8b9APoqUZrjUk-f8-19" value="ФХ продуктивной системы Д5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2824.25" y="-12292" width="213.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
