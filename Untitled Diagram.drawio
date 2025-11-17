@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="27.1.6">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="4578" dy="20142" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4776" dy="20665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5815,6 +5815,36 @@
           <mxGeometry x="-0.1774" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-1" value="Узел DirectumRX" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2592" y="-19740" width="200" height="133" as="geometry">
+            <mxRectangle x="-2375" y="-19737" width="129" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-2" value="Веб-сервер" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vqvTWdoA402BpgusyE-g-1">
+          <mxGeometry y="39" width="82" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-3" value="Микросервисы" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vqvTWdoA402BpgusyE-g-1">
+          <mxGeometry y="65" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-4" value="RabbitMQ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vqvTWdoA402BpgusyE-g-1">
+          <mxGeometry y="91" width="72" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-5" value="Узел СУБД" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2841" y="-19740" width="200" height="78" as="geometry">
+            <mxRectangle x="-2375" y="-19737" width="129" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-6" value="СУБД Postgres" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vqvTWdoA402BpgusyE-g-5">
+          <mxGeometry x="-0.5" y="39" width="101" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-9" value="Узел ElasticSearch" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2340.5" y="-19740" width="200" height="78" as="geometry">
+            <mxRectangle x="-2375" y="-19737" width="129" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-10" value="Сервисы ES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vqvTWdoA402BpgusyE-g-9">
+          <mxGeometry x="-0.5" y="39" width="87" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
