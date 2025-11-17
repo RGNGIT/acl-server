@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="27.1.6">
   <diagram name="Page-1" id="gelu6Epa7kTJqXeX9UKj">
-    <mxGraphModel dx="5019" dy="20803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4776" dy="21065" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5887,6 +5887,26 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2488" y="-19593" as="sourcePoint" />
             <mxPoint x="-2488" y="-19653" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-27" value="Балансировщик" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2684.88" y="-20030" width="210.75" height="78" as="geometry">
+            <mxRectangle x="-2375" y="-19737" width="129" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-28" value="Haproxy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vqvTWdoA402BpgusyE-g-27">
+          <mxGeometry x="73.87" y="37" width="63" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.111;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2671" y="-19892" as="sourcePoint" />
+            <mxPoint x="-2671" y="-19952" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vqvTWdoA402BpgusyE-g-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.111;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2492" y="-19892" as="sourcePoint" />
+            <mxPoint x="-2492" y="-19952" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
