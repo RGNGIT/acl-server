@@ -6100,6 +6100,12 @@
         <mxCell id="rZSTPbWRt-6WTTHtl3h--13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;ИС&lt;/font&gt;" vertex="1">
           <mxGeometry height="302" width="269" x="-1003" y="-11125" as="geometry" />
         </mxCell>
+        <mxCell id="rZSTPbWRt-6WTTHtl3h--16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Вариант 1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="42" width="221" x="-1892" y="-11735" as="geometry" />
+        </mxCell>
+        <mxCell id="rZSTPbWRt-6WTTHtl3h--18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Вариант 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="42" width="221" x="-1892" y="-11214" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
